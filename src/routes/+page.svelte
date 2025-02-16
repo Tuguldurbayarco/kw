@@ -1,4 +1,5 @@
 <section class="heroBanner">
+  _
   <div class="container">
     <img
       style="width: 100% !important;"
