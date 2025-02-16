@@ -11,7 +11,7 @@
     </div>
     <ul>
       <li>
-        <a href="/">Бидний тухай</a>
+        <a href="/kw/">Бидний тухай</a>
       </li>
       <li>
         <a href="/kw/join-us-agent">Агентаар нэгдэх</a>
