@@ -15,7 +15,7 @@ const config = {
     // See https://svelte.dev/docs/kit/adapters for more information about adapters.
     adapter: adapter(),
     paths: {
-      base: process.env.BASE_PATH || "", // Set this dynamically for GitHub Pages
+      base: process.env.BASE_PATH || "/kw", // Set this dynamically for GitHub Pages
     },
     appDir: "internal",
   },
