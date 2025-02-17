@@ -37,4 +37,6 @@ You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
 
-npx gh-pages -d build -b gh-pages
+- npx gh-pages -d build -b gh-pages
+- BASE_PATH='/kw' npm run build
+  npm run deploy
