@@ -20,7 +20,7 @@
   <section class="author globalMB-30">
     <div class="Kwcontainer">
       <div class="authorGrid">
-        <div class="authorImage">
+        <div class="authorImage" style="margin-top:15%">
           <img
             src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwprofile.webp"
             alt=""
@@ -75,39 +75,41 @@
       </div>
 
       <div class="interTitleName globalP">
-        <h5 style="font-size: 16px;">MISSION:</h5>
+        <h5 style="font-size: 16px;">ЗОРИЛГО:</h5>
       </div>
       <div class="interTitleTitle globalP">
         <p style="font-size: 16px;">
-          To build careers worth having, businesses worth owning, and lives
-          worth living, experiences worth giving and legacies worth leaving.
+          Бидний ЗОРИЛГО бол үнэ цэнтэй ажил мэргэжил, бизнес, амьдралыг бүтээн
+          сайн туршлагуудыг өгч үнэ цэнтэй өвийг үлдээхэд оршино.
         </p>
       </div>
       <div class="interTitleName globalP">
-        <h5 style="font-size: 16px;">VISION:</h5>
+        <h5 style="font-size: 16px;">АЛСЫН ХАРАА:</h5>
       </div>
       <div class="interTitleTitle globalP">
         <p style="font-size: 16px;">
-          To be the real estate company of choice for agents and their
-          customers.
+          Үл хөдлөх хөрөнгийн агентууд болон тэдний харилцагч нарын хамгийн сайн
+          сонголт болсон компани болох юм.
         </p>
       </div>
       <div class="interTitleName globalP">
-        <h5 style="font-size: 16px;">VALUES:</h5>
-      </div>
-      <div class="interTitleTitle globalP">
-        <p style="font-size: 16px;">God, Family, then Business.</p>
-      </div>
-      <div class="interTitleName globalP">
-        <h5 style="font-size: 16px;">PERSPECTIVE:</h5>
+        <h5 style="font-size: 16px;">ҮНЭ ЦЭНЭ:</h5>
       </div>
       <div class="interTitleTitle globalP">
         <p style="font-size: 16px;">
-          A training and consulting company that also provides the franchise
-          systems, products, and services that lead to productivity and
-          profitability. Keller Williams thinks like a top producer, acts like a
-          trainer- consultant, and focuses all its activities on service,
-          productivity, and profitability.
+          Гэр бүл болон бизнес гэсэн дарааллыг чухалчилна.
+        </p>
+      </div>
+      <div class="interTitleName globalP">
+        <h5 style="font-size: 16px;">ХЭТИЙН ТӨЛӨВ:</h5>
+      </div>
+      <div class="interTitleTitle globalP">
+        <p style="font-size: 16px;">
+          Бид ҮХХ н сургалт болон зөвлөх үйлчилгээний компани бөгөөд бүтээмж
+          болон ашигт ажиллагаанд чиглэсэн франчайз систем болон бүтээгдэхүүн
+          үйлчилгээг санал болгодог. Келлер Виллиамс нь хамгийн өндөр бүтээмжтэй
+          топ сэтгэлгээгээр сургагч болон зөвлөх маягаар ажиллаж бүхий л үйл
+          ажиллагаагаа өндөр бүтээмж, ашигт ажиллагаанд чиглүүлдэг.
         </p>
       </div>
     </div>
@@ -121,85 +123,85 @@
         <h1>WI4C2TES</h1>
       </div>
       <div class="beSystemFullBorder">
-        <h5 style="font-weight:400;">BELIEF SYSTEM</h5>
+        <h5 style="font-weight:400;">ИТГЭЛ ҮНЭМЖИЛ</h5>
         <div class="beSystemGrid">
           <div class="beSystemName">
-            <h6>Win-Win:</h6>
+            <h6>Хож-Хож:</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">or no deal</h6>
+            <h6 style="font-weight:400;">эсвэл бүү хий</h6>
           </div>
         </div>
         <div class="beSystemGrid">
           <div class="beSystemName">
-            <h6>Integrity:</h6>
+            <h6>Зарчим:</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">do the right thing</h6>
+            <h6 style="font-weight:400;">зөв зүйлийг хийх</h6>
           </div>
         </div>
         <div class="beSystemGrid">
           <div class="beSystemName">
-            <h6>Customers:</h6>
+            <h6>Харилцагч үйлчлүүлэгч:</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">always come first</h6>
+            <h6 style="font-weight:400;">нэн тэргүүнд</h6>
           </div>
         </div>
         <div class="beSystemGrid">
           <div class="beSystemName">
-            <h6>Commitment:</h6>
+            <h6>Өөрийгөө зориулах:</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">in all things</h6>
+            <h6 style="font-weight:400;">бүх зүйлд</h6>
           </div>
         </div>
         <div class="beSystemGrid">
           <div class="beSystemName">
-            <h6>Communication:</h6>
+            <h6>Харилцаа:</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">seek first to understand</h6>
+            <h6 style="font-weight:400;">бусадтай ойлголцохыг эрмэлзэх</h6>
           </div>
         </div>
         <div class="beSystemGrid">
           <div class="beSystemName">
-            <h6>Creativity:</h6>
+            <h6>Бүтээлч байдал:</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">ideas before results</h6>
+            <h6 style="font-weight:400;">санаанаас үр дүнд:</h6>
           </div>
         </div>
         <div class="beSystemGrid">
           <div class="beSystemName">
-            <h6>Teamwork:</h6>
+            <h6>Багийн ажиллагаа :</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">together everyone achieves more</h6>
+            <h6 style="font-weight:400;">хамтдаа илүү ихийг хийх</h6>
           </div>
         </div>
         <div class="beSystemGrid">
           <div class="beSystemName">
-            <h6>Trust:</h6>
+            <h6>Итгэл:</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">starts with honesty</h6>
+            <h6 style="font-weight:400;">үнэнчээр хандах</h6>
           </div>
         </div>
         <div class="beSystemGrid">
           <div class="beSystemName">
-            <h6>Equity:</h6>
+            <h6>Өмч:</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">opportunities for all</h6>
+            <h6 style="font-weight:400;">бүгдэд тэгш боломж</h6>
           </div>
         </div>
         <div class="beSystemGrid">
           <div class="beSystemName">
-            <h6>Success:</h6>
+            <h6>Амжилт:</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">results through people</h6>
+            <h6 style="font-weight:400;">хүмүүсээр дамжиж ирдэг</h6>
           </div>
         </div>
       </div>
@@ -239,7 +241,7 @@
   <div class="container">
     <div class="Kwcontainer">
       <h1 class="globalBold" style="margin-bottom: 30px; max-width: 100%;">
-        ДЭЛХИЙН ШАГНАЛУУД
+        ДЭЛХИЙН ХЭМЖЭЭНИЙ ШАГНАЛУУД
       </h1>
       <!-- <div class="wordBrandBorder"></div> -->
       <div class="wordBrand">
@@ -262,8 +264,7 @@
               alt=""
             />
             <h5 class="globalP">
-              Top 10 companies in the world where woman can work comfortably
-              (6th)
+              TOP 10 companies in the world where woman can work comfortably
             </h5>
           </div>
         </div>
@@ -304,7 +305,7 @@
               src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwnewsweek.webp"
               alt=""
             />
-            <h5 class="globalP">#1 Customer service</h5>
+            <h5 class="globalP">#1 Customer Serviced company</h5>
           </div>
         </div>
         <div class="wordBrandName">
@@ -314,8 +315,8 @@
               alt=""
             />
             <h5 class="globalP">
-              #1 Work-life balance <br />
-              #1 Empathy for corporate culture
+              #1 Work-Life balanced <br />
+              #1 Empathy for corporate culture company
             </h5>
           </div>
         </div>
@@ -416,16 +417,15 @@
       <div class="whyLevelSurgalt">
         <div class="whyLevelSurgaltFrame">
           <h2 class="globalBold" style="color:white; margin-bottom: 18px;">
-            ДЭЛХИЙН ЗЭРЭГЛЭЛИЙН СУРГАЛТ
+            Дэлхийн стандарт бүхий сургалтын систем
           </h2>
           <p>
-            Keller Williams-чууд бидний хувьд агентуудынхаа хөгжил, мэргэжлийн
-            сургалтад ач холбогдол өгдөг нь юутай ч харьцуулшгүй. Танхимын
-            сургалтаас эхлээд, тухайн нөхцөл байдлын эрэлт хэрэгцээнд
-            тулгуурласан сургалтууд, онлайн сургалтууд, салбартаа шилдгээр
-            шалгарсан дасгалжуулалтын хөтөлбөрүүдээр дамжуулан үл хөдлөх
-            хөрөнгийн чиглэлээр хамгийн дэвшилтэт, цогц суралцах боломжоор
-            хангадаг.
+            KW-д бид агентуудынхаа хувь хүний хөгжил, мэргэшсэн байдал, ёс зүйд
+            өндөр ач холбогдол өгч ажилладагаараа онцлогтой. Танхимын сургалтаас
+            эхлээд ҮХХ н зах зээлийн эрэлт хэрэгцээнд тулгуурласан сургалтууд,
+            онлайн сургалтууд, салбартаа туршигдсан көүчинг буюу дасгалжуулалтын
+            хөтөлбөрүүдээр дамжуулан хамгийн дэвшилтэт, дэлхийн жишигт нийцсэн
+            цогц сургалтаар хангахыг эрмэлздэг.
           </p>
         </div>
         <img
@@ -465,7 +465,7 @@
 <div class="container">
   <section class="life">
     <div class="Kwcontainer">
-      <h1 style="font-weight: bold;">НАСАН ТУРШИЙН БАЯЛАГ</h1>
+      <h1 style="font-weight: bold;">ПАССИВ ОРЛОГО ХҮРТЭХ БОЛОМЖ</h1>
       <!--  <div class="lifeBorder"></div> -->
       <div class="lifeBaylag">
         <img
@@ -481,13 +481,14 @@
               Хуваалцах соёл
             </h3>
             <p>
-              Keller Williams-д бүр анхнаасаа л агентууд нь компанийнхаа соёлоо
-              удирдан чиглүүлсээр ирсэн. Ашиг хуваалцах санааг анх гаргаж байх
-              үед олон хүн биднийг хэт туйлширч байна хэмээн, зарим нь бүүр
-              биднийг галзуу гэж байв. Харин бид компанийн өсөлт, хөгжилд хувь
-              нэмрээ оруулж байгаа хүмүүстээ шагнал, урамшуулал ӨГӨХГҮЙ байх нь
-              галзуу хэрэг гэж боддог. Тиймээс бид хүн нэг бүрийг энэхүү баялаг
-              бий болгох платформдоо хамруулахыг зорьдог юм.
+              Келлер Виллиамс н хувьд агентууд өөрсдөө компанийхаа соёлыг
+              удирдан чиглүүлж ирсэн түүхтэй. Компаний ашигийг агентуудад
+              хувиарлах санаачлагыг гаргаж байх үед зах зээл биднийг хэт
+              туйлширч байна хэмээн хүлээн авах хандлага ч байсан. Харин бид
+              үүний эсрэг компанид хуримтлагдсан ашигаас агентууддаа
+              хувиарлахгүй байх нь шудрага биш гэж үздэг. Тиймээс бид агент бүр
+              баялагаас хүртэх эрхтэй гэж үзэн тэднийг аль болох энэхүү өсөлтийн
+              сангийн платформд хамруулах эрмэлзэлтэй ажилладаг.
             </p>
           </div>
           <img
@@ -526,7 +527,7 @@
     <div class="Kwcontainer">
       <div class="kwCultureBody">
         <div class="kwCultureBodySection">
-          <h3 style="font-weight: bold; font-size: 18px;">KW CULTURE</h3>
+          <h3 style="font-weight: bold; font-size: 18px;">КW-Д ТОГТСОН СОЁЛ</h3>
           <div>
             <p>
               Бизнест хамтрагчаа сонгох нь юу юунаас илүү чухал. Ямар ч агент
@@ -540,7 +541,9 @@
           </div>
         </div>
         <div class="kwCultureBodySection-white">
-          <h3 style="font-weight: bold; font-size: 18px;">KW CARE</h3>
+          <h3 style="font-weight: bold; font-size: 18px;">
+            КW-Д ТОГТСОН ХАЛАМЖИЙН САН
+          </h3>
           <div style="text-align: justify;">
             <p>
               Хэрэгтэй үед нь агентдаа оновчтой тусламж үзүүлэх нь манай
@@ -554,7 +557,7 @@
               тулд бид хамтдаа зогсох ёстой юм. Манай агентуудын гайхалтай
               өгөөмөр, харамгүй сэтгэлийн үр дүнд манай компани нь үндэсний, бүс
               нутгийн, орон нутгийн болон хувь хүний аливаа бэрхшээл, хүнд хэцүү
-              үед өөрийнхөндөө халамж, анхаарал тавих боломжийг олгодог билээ.
+              үед бусаддаа халамж, анхаарал тавих боломжийг олгодог билээ.
             </p>
           </div>
         </div>
@@ -565,26 +568,27 @@
         />
         <div class="kwCultureBodySection">
           <h3 style="font-weight: bold; font-size: 18px;">RED DAY</h3>
-          <p></p>
           <div>
-            Талархал хананаас минь ч хальдаг юм. Анх 2009 онд байгуулагдсанаас
-            хойш RED day (Renew, Energize and Donate – Шинэчил, Эрчил, Хандивла)
-            өдөр нь манай компани жил бүр албан ёсоор тэмдэглэж заншсан, нийгэм
-            рүү чиглэсэн сайн үйлс хийх өдөр юм. Энэ өдөр Keller Williams-ийн
-            агентууд өөрсдийн амьдардаг орчин газартаа бусдад өгч, тусалдаг
-            бөгөөд үүгээрээ нийгэмдээ эерэг эрч хүч өгөхийг хүсдэг.
-            <p></p>
+            <p>
+              Талархал хананаас минь ч хальдаг юм. Анх 2009 онд байгуулагдсанаас
+              хойш RED day (Renew, Energize and Donate – Шинэчил, Эрчил,
+              Хандивла) өдөр нь манай компани жил бүр албан ёсоор тэмдэглэж
+              заншсан, нийгэм рүү чиглэсэн сайн үйлс хийх өдөр юм. Энэ өдөр
+              Keller Williams-ийн агентууд өөрсдийн амьдардаг орчин газартаа
+              бусдад өгч, тусалдаг бөгөөд үүгээрээ нийгэмдээ эерэг эрч хүч
+              өгөхийг хүсдэг.
+            </p>
           </div>
           <h3 style="font-weight: bold; font-size: 18px;">KW KIDS CAN</h3>
           <div>
             <p>
-              Гари Келлерийн алсын хараагаар бий болсон энэхүү ашгийн бус
-              байгууллага нь Keller Williams-ийн боловсрол, сургалтын талбар
-              дахь давуу талуудыг бизнесийн ба нийгмийн манлайлагчдын дараагийн
-              үеийнхэнд дамжуулахад чиглэдэг. Уг байгууллага нь дэлхийн
-              зэрэглэлийн сургалтын хөтөлбөрүүдээр дамжуулан хүүхэд, залуусыг
-              томоор сэтгэх, баялаг бүтээх, нийгэмдээ харамгүй өгдөг иргэд болон
-              төлөвшихөд нь туслах зорилготой.
+              Гари Келлерийн алсын хараагаар бий болсон энэхүү ашигийн бус
+              байгууллага нь KW н боловсрол, сургалтын талбар дахь давуу
+              талуудыг бизнес олон нийтийг манлайлагчдын дараа үед өвлүүлэн
+              үлдээхэд чиглэдэг юм. Тус байгууллага нь дэлхийн стандарт бүхий
+              сургалтын хөтөлбөрүүдээрээ дамжуулан хүүхэд, залуусыг алсын
+              хараатайгаар томоор сэтгэх, баялаг бүтээх, эргүүлээд нийгэмдээ
+              өгдөг иргэд болон төлөвшихөд нь туслах зорилготой юм.
             </p>
           </div>
         </div>

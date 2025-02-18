@@ -8,10 +8,6 @@
           alt=""
         />
       </a>
-      <div class="logo-divider"></div>
-      <a href="/kw/">
-        <span class="kw-city-group">KW City Group</span>
-      </a>
     </div>
     <ul>
       <li>
@@ -38,23 +34,13 @@
 </main>
 
 <style>
-  .kw-city-group {
-    padding-inline: 12px;
-    font-size: 24px;
-  }
   .logo-container {
     display: flex;
     align-items: center;
   }
-  .logo-divider {
-    width: 1px;
-    background-color: rgba(38, 40, 54, 0.1);
-    margin-left: 28px;
-    margin-right: 40px;
-    height: 40px;
-  }
+
   .logo-style {
-    max-width: 213px;
+    max-width: 180px;
   }
   nav {
     z-index: 999;
