@@ -1,13 +1,17 @@
 <nav>
   <div class="nav-container">
     <div class="logo-container">
-      <img
-        class="logo-style"
-        src="https://dims.web.production.kw-prod.brightspot.cloud/dims4/default/60ce1d0/2147483647/strip/true/crop/666x174+0+0/resize/400x105!/quality/90/?url=https%3A%2F%2Fstorage.googleapis.com%2Fattachment-prod-e2ad%2F840244%2Fcp3h76m758ks70gjgg80.png"
-        alt=""
-      />
+      <a href="/kw/">
+        <img
+          class="logo-style"
+          src="https://dims.web.production.kw-prod.brightspot.cloud/dims4/default/60ce1d0/2147483647/strip/true/crop/666x174+0+0/resize/400x105!/quality/90/?url=https%3A%2F%2Fstorage.googleapis.com%2Fattachment-prod-e2ad%2F840244%2Fcp3h76m758ks70gjgg80.png"
+          alt=""
+        />
+      </a>
       <div class="logo-divider"></div>
-      <span class="kw-city-group">KW City Group</span>
+      <a href="/kw/">
+        <span class="kw-city-group">KW City Group</span>
+      </a>
     </div>
     <ul>
       <li>
@@ -20,7 +24,7 @@
         <a href="/kw/join-us-staff">Ажилтнаар нэгдэх</a>
       </li>
       <li>
-        <a href="/#">Блог</a>
+        <a href="/kw/#">Блог</a>
       </li>
       <li>
         <a href="https://www.kw.com/mn/search" target="_blank">ҮХХ Хайх</a>
