@@ -19,6 +19,12 @@
       <li>
         <a href="/kw/join-us-staff">Ажилтнаар нэгдэх</a>
       </li>
+      <li>
+        <a href="/#">Блог</a>
+      </li>
+      <li>
+        <a href="https://www.kw.com/mn/search" target="_blank">ҮХХ Хайх</a>
+      </li>
     </ul>
   </div>
 </nav>
