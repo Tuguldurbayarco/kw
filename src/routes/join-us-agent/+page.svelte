@@ -7,8 +7,8 @@
       >
         <div class="agentImageSectionText">
           <h1>
-            АГЕНТАД ХАМГИЙН ӨНДӨР <span>
-              <span style="margin-top: 5px;">ОРЛОГО ХУВААХ ЗАГВАР</span>
+            АГЕНТАД ХАМГИЙН АШИГТАЙ<span>
+              <span style="margin-top: 5px;">шимтгэл хуваах загвар</span>
             </span>
           </h1>
         </div>
@@ -73,8 +73,8 @@
             alt=""
           />
         </div>
-        <div class="agentGraphicText">
-          <h1>100% шимтгэлийн орлогоо авах боломж</h1>
+        <div class="agentGraphicText" style="margin-inline:20px">
+          <h1>Шимтгэлийн орлогоо 100% авах CAPPER систем</h1>
           <p>
             Keller Williams нь тухайн жилдээ агентуудын Маркет Центртээ төлөх
             мөнгөн дүнгийн дээд хязгаарыг тогтоож өгдөг. Үүнийг CAP RATE (дээд
@@ -97,7 +97,7 @@
       <div class="agentWorldSurgaltGrid">
         <div class="agentWorldSurgaltText">
           <div class="agentWorldSurgaltTextPara">
-            <h1>Дэлхийн зэрэглэлийн сургалт</h1>
+            <h1>Дэлхийн стандарт бүхий сургалтын систем</h1>
             <p>
               Keller Williams Realty компани нь "Training" сэтгүүлээс жил бүр
               шалгаруулдаг бүх салбарын хэмжээнд "ШИЛДЭГ" сургалттай компаниар 4

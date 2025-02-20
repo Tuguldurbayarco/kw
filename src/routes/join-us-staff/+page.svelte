@@ -4,7 +4,9 @@
       <div class="staffWorldSurgaltGrid">
         <div class="staffWorldSurgaltText">
           <div class="staffWorldSurgaltTextPara">
-            <h1 style="font-weight: bold;">The happiest place to work for</h1>
+            <h1 style="font-weight: bold;">
+              Хамгийн аз жаргалтайгаар ажиллах орчин
+            </h1>
             <p>
               Keller Williams нь ”CareerBliss.com” судалгааны байгууллагын
               шалгаруулалтаар 2018 оноос хойш жил бүр ”Ажиллахад хамгийн таатай
