@@ -7,8 +7,8 @@
       >
         <div class="agentImageSectionText">
           <h1>
-            АГЕНТАД ХАМГИЙН АШИГТАЙ<span>
-              <span style="margin-top: 5px;">шимтгэл хуваах загвар</span>
+            АГЕНТАД ХАМГИЙН АШИГТАЙ <span>
+              <span style="margin-top: 5px;"> шимтгэл хуваах загвар</span>
             </span>
           </h1>
         </div>
