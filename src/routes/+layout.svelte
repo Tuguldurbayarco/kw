@@ -51,13 +51,14 @@
     padding: 1rem;
     display: flex;
     align-items: center;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Roboto", sans-serif;
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.05);
   }
 
   .nav-container {
     height: 88px;
-    padding-inline: 24px;
+    padding-left: 24px;
+    padding-right: 48px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -79,7 +80,7 @@
   a {
     color: #262836;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   a:hover {

@@ -1051,7 +1051,7 @@ margin-bottom: 25px;"
 
   .staffBidenteiNegdehImage {
     grid-row: 2/2;
-    grid-column: 1/19;
+    grid-column: 1/21;
     max-width: 100%;
     min-height: 720px;
     background-repeat: no-repeat;
@@ -1345,7 +1345,7 @@ margin-bottom: 25px;"
     }
 
     .staffBidenteiNegdehImage {
-      grid-column: 1/19;
+      grid-column: 1/21;
     }
 
     .agentWorldSurgaltText {

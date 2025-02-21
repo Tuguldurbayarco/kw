@@ -116,7 +116,7 @@
         <h1>WI4C2TES</h1>
       </div>
       <div class="beSystemFullBorder">
-        <h5 style="font-weight:400;">ИТГЭЛ ҮНЭМЖИЛ</h5>
+        <h5 style="font-weight:400;">ИТГЭЛ ҮНЭМШИЛ</h5>
         <div class="beSystemGrid">
           <div class="beSystemName">
             <h6>Хож-Хож:</h6>
@@ -162,7 +162,7 @@
             <h6>Бүтээлч байдал:</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">санаанаас үр дүнд:</h6>
+            <h6 style="font-weight:400;">санаанаас үр дүнд</h6>
           </div>
         </div>
         <div class="beSystemGrid">
@@ -323,9 +323,8 @@
     <h1 class="globalBold" style="margin-bottom:30px;">KW ДЭЛХИЙ ДАХИНД</h1>
     <!--   <div class="worldwkDahinBorder"></div> -->
   </div>
-  <div class="Kwcontainer" style="padding: 0px; ">
+  <div class="Kwcontainer" style="padding: 0px; width:100%;">
     <img
-      style="object-fit: contain; height: 100%;"
       src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/worldMap.svg"
       alt=""
     />
@@ -950,15 +949,16 @@
   }
 
   .worldwkDahinNumber {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 10px;
   }
 
   .worldwkDahinNumberZ h1 {
     font-size: 90px;
     text-align: center;
     font-weight: 400;
+    margin-block-end: 0.63em !important;
   }
 
   .worldwkDahinNumberZ h4 {
@@ -966,6 +966,7 @@
     font-size: 30px;
     font-weight: bold;
     color: #de0036;
+    font-family: "Roboto", sans-serif;
   }
 
   .worldwkCountry {
@@ -2293,10 +2294,10 @@
     }
 
     .worldwkDahinNumber {
-      grid-template-columns: 1fr;
-      grid-row-gap: 20px;
-      display: grid;
+      display: flex;
+      row-gap: 20px;
       margin-bottom: 10px;
+      flex-direction: column;
     }
 
     .worldwkDahinNumberZ {
