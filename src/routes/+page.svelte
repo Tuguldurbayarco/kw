@@ -233,7 +233,10 @@
 <section class="world">
   <div class="container">
     <div class="Kwcontainer">
-      <h1 class="globalBold" style="margin-bottom: 30px; max-width: 100%;">
+      <h1
+        class="globalBold"
+        style="margin-bottom: 30px; max-width: 100%; padding-top:30px;"
+      >
         ДЭЛХИЙН ХЭМЖЭЭНИЙ ШАГНАЛУУД
       </h1>
       <!-- <div class="wordBrandBorder"></div> -->
@@ -241,10 +244,11 @@
         <div class="wordBrandName">
           <div class="wordBrandNameLeft">
             <img
+              class="same-height-logo"
               src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwtraining.webp"
               alt=""
             />
-            <h5 class="globalP">
+            <h5 class="globalP global-text">
               Full training system <br />
               TOP10 Hall of Fame
             </h5>
@@ -253,10 +257,11 @@
         <div class="wordBrandName">
           <div class="wordBrandNameRight">
             <img
+              class="same-height-logo"
               src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwforbes.webp"
               alt=""
             />
-            <h5 class="globalP">
+            <h5 class="globalP global-text">
               TOP 10 companies in the world where woman can work comfortably
             </h5>
           </div>
@@ -264,19 +269,23 @@
         <div class="wordBrandName">
           <div class="wordBrandNameLeft">
             <img
+              class="same-height-logo"
               src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwcareerbliss.webp"
               alt=""
             />
-            <h5 class="globalP">#1 The happiest company to work for</h5>
+            <h5 class="globalP global-text">
+              #1 The happiest company to work for
+            </h5>
           </div>
         </div>
         <div class="wordBrandName">
           <div class="wordBrandNameRight">
             <img
+              class="same-height-logo"
               src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwinman.webp"
               alt=""
             />
-            <h5 class="globalP">
+            <h5 class="globalP global-text">
               The most innovative real estate technology company
             </h5>
           </div>
@@ -286,28 +295,33 @@
         <div class="wordBrandName">
           <div class="wordBrandNameLeft">
             <img
+              class="same-height-logo"
               src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwfastcompany.webp"
               alt=""
             />
-            <h5 class="globalP">#1 Innovative real estate company</h5>
+            <h5 class="globalP global-text">
+              #1 Innovative real estate company
+            </h5>
           </div>
         </div>
         <div style="margin-left: 40px;" class="wordBrandName">
           <div class="wordBrandNameRight">
             <img
+              class="same-height-logo"
               src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwnewsweek.webp"
               alt=""
             />
-            <h5 class="globalP">#1 Customer Serviced company</h5>
+            <h5 class="globalP global-text">#1 Customer Serviced company</h5>
           </div>
         </div>
         <div class="wordBrandName">
           <div class="wordBrandNameLeft">
             <img
+              class="same-height-logo"
               src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwindeed.webp"
               alt=""
             />
-            <h5 class="globalP">
+            <h5 class="globalP global-text">
               #1 Work-Life balanced <br />
               #1 Empathy for corporate culture company
             </h5>
@@ -646,9 +660,13 @@
     font-weight: 400;
   }
 
+  .global-text {
+    margin-block: 1.37em !important;
+  }
+
   .authorGrid {
     display: grid;
-    grid-template-columns: 0.4fr 0.6fr;
+    /* grid-template-columns: 0.4fr 0.6fr; */
     grid-column-gap: 5%;
   }
 
@@ -903,7 +921,7 @@
     margin-top: 20px;
     font-size: 20px;
     color: white;
-    text-align: justify;
+    text-align: center;
   }
 
   .worldKW img {
@@ -1752,6 +1770,10 @@
   .devCustomImage > a > img {
     width: 370px;
     height: 250px;
+  }
+  .same-height-logo {
+    height: 49px;
+    object-fit: contain;
   }
 
   @media (max-width: 1500px) {
