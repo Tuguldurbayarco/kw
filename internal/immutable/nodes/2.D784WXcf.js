@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="./favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-		<link href="./internal/immutable/assets/0.CUQWb8Dy.css" rel="stylesheet">
-		<link href="./internal/immutable/assets/2.Bji4QGry.css" rel="stylesheet">
-		<link rel="modulepreload" href="./internal/immutable/entry/start.BXkncUdm.js">
-		<link rel="modulepreload" href="./internal/immutable/chunks/niDRwyu3.js">
-		<link rel="modulepreload" href="./internal/immutable/chunks/unNtgsxl.js">
-		<link rel="modulepreload" href="./internal/immutable/chunks/Bg-FgYI4.js">
-		<link rel="modulepreload" href="./internal/immutable/entry/app.vb58kDbu.js">
-		<link rel="modulepreload" href="./internal/immutable/chunks/B6X0KwUn.js">
-		<link rel="modulepreload" href="./internal/immutable/chunks/CP8AF6ig.js">
-		<link rel="modulepreload" href="./internal/immutable/chunks/CYfvRVK0.js">
-		<link rel="modulepreload" href="./internal/immutable/nodes/0.cbUO2gO-.js">
-		<link rel="modulepreload" href="./internal/immutable/chunks/BC_5Wn-M.js">
-		<link rel="modulepreload" href="./internal/immutable/nodes/2.D784WXcf.js">
-  </head>
-  <body style="margin: 0px" data-sveltekit-preload-data="hover">
-    <div><!--[--><!--[--><!----><nav class="svelte-jp6z74"><div class="nav-container svelte-jp6z74"><button class="header-menu-icon svelte-jp6z74"><img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill='none'%20stroke='currentColor'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='1.5'%20d='M3%206.001h18m-18%206h18m-18%206h18'/%3e%3c/svg%3e" alt="menu"></button> <div class="burger-menu-container fixed top-0 left-0 h-full bg-white text-white transform transition-transform duration-300 mt-[87px] w-[408px] z-20 svelte-jp6z74 translate-x-[-100%]"><ul class="burger-menu svelte-jp6z74"><li style="border-top: 2px solid #2628361a;" class="svelte-jp6z74"><a href="/kw/" class="svelte-jp6z74">Бидний тухай</a></li> <li class="svelte-jp6z74"><a href="/kw/join-us-agent" class="svelte-jp6z74">Агентаар нэгдэх</a></li> <li class="svelte-jp6z74"><a href="/kw/join-us-staff" class="svelte-jp6z74">Ажилтнаар нэгдэх</a></li> <li class="svelte-jp6z74"><a href="https://www.kw.com/mn/search" target="_blank" class="svelte-jp6z74">ҮХХ Хайх</a></li></ul></div> <div class="bg-faded fixed top-0 left-0 h-full mt-[87px] w-full z-10 svelte-jp6z74 translate-x-[-100%]"></div> <div class="logo-container svelte-jp6z74"><a href="/kw/" class="svelte-jp6z74"><img class="logo-style svelte-jp6z74" src="https://dims.web.production.kw-prod.brightspot.cloud/dims4/default/60ce1d0/2147483647/strip/true/crop/666x174+0+0/resize/400x105!/quality/90/?url=https%3A%2F%2Fstorage.googleapis.com%2Fattachment-prod-e2ad%2F840244%2Fcp3h76m758ks70gjgg80.png" alt=""></a></div> <ul class="header-menu-wide svelte-jp6z74"><li class="svelte-jp6z74"><a href="/kw/" class="svelte-jp6z74">Бидний тухай</a></li> <li class="svelte-jp6z74"><a href="/kw/join-us-agent" class="svelte-jp6z74">Агентаар нэгдэх</a></li> <li class="svelte-jp6z74"><a href="/kw/join-us-staff" class="svelte-jp6z74">Ажилтнаар нэгдэх</a></li> <li class="svelte-jp6z74"><a href="https://www.kw.com/mn/search" target="_blank" class="svelte-jp6z74">ҮХХ Хайх</a></li></ul></div></nav> <main class="svelte-jp6z74"><!----><!----><section class="heroBanner svelte-h6enez"><div><img style="width: 100% !important;" src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/KWMongoliaBanner.webp" alt="" class="svelte-h6enez"></div> <div style="height:75px;" class="borderBottom svelte-h6enez"></div></section> <div><section class="author globalMB-30 svelte-h6enez"><div class="Kwcontainer svelte-h6enez"><div class="authorGrid svelte-h6enez"><div class="authorImage svelte-h6enez" style="margin-top:15%"><img src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwprofile.webp" alt="" class="svelte-h6enez"> <div style="padding-left: 15px;" class="leftBorder svelte-h6enez"><h3 style="color: black;" class="leftBorder24 globalBold svelte-h6enez">ГАРИ КЕЛЛЕР</h3> <h3 style="font-size: 20px; font-weight: bold; color: #666666;" class="leftborder20 globalbold svelte-h6enez">GARY KELLER</h3></div></div> <div class="authorBody globalP svelte-h6enez"><p class="both-space svelte-h6enez">Keller Williams Realty компанийг үүсгэн байгуулагч Гари Келлерийг
+import{t as l,b as t}from"../chunks/CYfvRVK0.js";import"../chunks/BC_5Wn-M.js";import{G as i}from"../chunks/unNtgsxl.js";var a=l(`<section class="heroBanner svelte-h6enez"><div><img style="width: 100% !important;" src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/KWMongoliaBanner.webp" alt="" class="svelte-h6enez"></div> <div style="height:75px;" class="borderBottom svelte-h6enez"></div></section> <div><section class="author globalMB-30 svelte-h6enez"><div class="Kwcontainer svelte-h6enez"><div class="authorGrid svelte-h6enez"><div class="authorImage svelte-h6enez" style="margin-top:15%"><img src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwprofile.webp" alt="" class="svelte-h6enez"> <div style="padding-left: 15px;" class="leftBorder svelte-h6enez"><h3 style="color: black;" class="leftBorder24 globalBold svelte-h6enez">ГАРИ КЕЛЛЕР</h3> <h3 style="font-size: 20px; font-weight: bold; color: #666666;" class="leftborder20 globalbold svelte-h6enez">GARY KELLER</h3></div></div> <div class="authorBody globalP svelte-h6enez"><p class="both-space svelte-h6enez">Keller Williams Realty компанийг үүсгэн байгуулагч Гари Келлерийг
             REALTOR Magazine сэтгүүлээс үл хөдлөх хөрөнгийн салбар дахь хамгийн
             нөлөө бүхий лидерээр нэрлэсэн байдаг. Мөн түүнийг REAL Trends
             судалгаагаар салбарын “Most Admired People” шагналын топ таван хүний
@@ -30,7 +8,7 @@
             The Wall Street Journal-ийн бестселлер жагсаалтыг тэргүүлж байсан
             бөгөөд бусад нэр хүндтэй шагнал болох ‘Ernst &amp; Young
             Entrepreneur of the Year Award”, мөн ‘Inc. Magazine’s Entrepreneur
-            of the Year’ шагналын финалистыг хүртэж байсан.</p></div></div></div></section></div> <div style="height:750px; width: 35%;" class="leftSide svelte-h6enez"></div> <div class="i svelte-h6enez"><div class="Kwcontainer svelte-h6enez"><div class="interBody interBodyMobile svelte-h6enez"><div class="interName svelte-h6enez"><h3 class="interNameBold svelte-h6enez" style="font-size: 24px; font-weight: bold;">KELLER WILLIAMS INTERNATIONAL</h3></div> <div class="interTitleName globalP svelte-h6enez"><h5 style="font-size: 16px;" class="svelte-h6enez">ЗОРИЛГО:</h5></div> <div class="interTitleTitle globalP svelte-h6enez"><p style="font-size: 16px;" class="svelte-h6enez">Бидний ЗОРИЛГО бол үнэ цэнтэй ажил мэргэжил, бизнес, амьдралыг бүтээн
+            of the Year’ шагналын финалистыг хүртэж байсан.</p></div></div></div></section></div> <div style="height:750px; width: 35%; " class="leftSide svelte-h6enez"></div> <div class="i svelte-h6enez"><div class="Kwcontainer svelte-h6enez"><div class="interBody interBodyMobile svelte-h6enez"><div class="interName svelte-h6enez"><h3 class="interNameBold svelte-h6enez" style="font-size: 24px; font-weight: bold;">KELLER WILLIAMS INTERNATIONAL</h3></div> <div class="interTitleName globalP svelte-h6enez"><h5 style="font-size: 16px;" class="svelte-h6enez">ЗОРИЛГО:</h5></div> <div class="interTitleTitle globalP svelte-h6enez"><p style="font-size: 16px;" class="svelte-h6enez">Бидний ЗОРИЛГО бол үнэ цэнтэй ажил мэргэжил, бизнес, амьдралыг бүтээн
           сайн туршлагуудыг өгч үнэ цэнтэй өвийг үлдээхэд оршино.</p></div> <div class="interTitleName globalP svelte-h6enez"><h5 style="font-size: 16px;" class="svelte-h6enez">АЛСЫН ХАРАА:</h5></div> <div class="interTitleTitle globalP svelte-h6enez"><p style="font-size: 16px;" class="svelte-h6enez">Үл хөдлөх хөрөнгийн агентууд болон тэдний харилцагч нарын хамгийн сайн
           сонголт болсон компани болох юм.</p></div> <div class="interTitleName globalP svelte-h6enez"><h5 style="font-size: 16px;" class="svelte-h6enez">ҮНЭ ЦЭНЭ:</h5></div> <div class="interTitleTitle globalP svelte-h6enez"><p style="font-size: 16px;" class="svelte-h6enez">Гэр бүл болон бизнес гэсэн дарааллыг чухалчилна.</p></div> <div class="interTitleName globalP svelte-h6enez"><h5 style="font-size: 16px;" class="svelte-h6enez">ХЭТИЙН ТӨЛӨВ:</h5></div> <div class="interTitleTitle globalP svelte-h6enez"><p style="font-size: 16px;" class="svelte-h6enez">Бид ҮХХ н сургалт болон зөвлөх үйлчилгээний компани бөгөөд бүтээмж
           болон ашигт ажиллагаанд чиглэсэн франчайз систем болон бүтээгдэхүүн
@@ -63,7 +41,7 @@
             ертөнц бодит амьдралын салшгүй хэсэг болсон тул танд ямар ч нөхцөл
             байдалд өндөр түвшинд бизнесээ авч явахад туслах зөв арга хэрэгсэл,
             технологи, нөөцийг эзэмшсэн түнш хэрэгтэй. Keller Williams нь энэ
-            бүгдийг агуулсан түнш мөн.</p></div></div></div></section></div> <div><section class="life svelte-h6enez"><div class="Kwcontainer svelte-h6enez"><h1 style="font-weight: bold;" class="svelte-h6enez">ПАССИВ ОРЛОГО ХҮРТЭХ БОЛОМЖ</h1> <div class="lifeBaylag svelte-h6enez"><img class="kwlifeGraphicsDesktop svelte-h6enez" src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/graphics.svg" alt=""> <div><div class="lifeBaylagP lifeBaylagP-top svelte-h6enez"><h3 style="color: #de0036; font-size: 18px; text-align: start; font-weight:bold;" class="svelte-h6enez">Хуваалцах соёл</h3> <p class="svelte-h6enez">Келлер Виллиамс н хувьд агентууд өөрсдөө компанийхаа соёлыг
+            бүгдийг агуулсан түнш мөн.</p></div></div></div></section></div> <div><section class="life svelte-h6enez"><div class="Kwcontainer svelte-h6enez"><h1 style="font-weight: bold;" class="svelte-h6enez">ПАССИВ ОРЛОГО ХҮРТЭХ БОЛОМЖ</h1> <div class="lifeBaylag svelte-h6enez"><img class="kwlifeGraphicsDesktop svelte-h6enez" src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/graphics.svg" alt=""> <div><div class=" lifeBaylagP lifeBaylagP-top svelte-h6enez"><h3 style="color: #de0036; font-size: 18px; text-align: start; font-weight:bold; " class="svelte-h6enez">Хуваалцах соёл</h3> <p class="svelte-h6enez">Келлер Виллиамс н хувьд агентууд өөрсдөө компанийхаа соёлыг
               удирдан чиглүүлж ирсэн түүхтэй. Компаний ашигийг агентуудад
               хувиарлах санаачлагыг гаргаж байх үед зах зээл биднийг хэт
               туйлширч байна хэмээн хүлээн авах хандлага ч байсан. Харин бид
@@ -107,30 +85,4 @@
               үлдээхэд чиглэдэг юм. Тус байгууллага нь дэлхийн стандарт бүхий
               сургалтын хөтөлбөрүүдээрээ дамжуулан хүүхэд, залуусыг алсын
               хараатайгаар томоор сэтгэх, баялаг бүтээх, эргүүлээд нийгэмдээ
-              өгдөг иргэд болон төлөвшихөд нь туслах зорилготой юм.</p></div></div></div></div></section></div><!----><!----></main><!----><!--]--> <!--[!--><!--]--><!--]-->
-			
-			<script>
-				{
-					__sveltekit_hg0djw = {
-						base: new URL(".", location).pathname.slice(0, -1),
-						assets: "/kw"
-					};
-
-					const element = document.currentScript.parentElement;
-
-					Promise.all([
-						import("./internal/immutable/entry/start.BXkncUdm.js"),
-						import("./internal/immutable/entry/app.vb58kDbu.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 2],
-							data: [null,null],
-							form: null,
-							error: null
-						});
-					});
-				}
-			</script>
-		</div>
-  </body>
-</html>
+              өгдөг иргэд болон төлөвшихөд нь туслах зорилготой юм.</p></div></div></div></div></section></div>`,1);function o(e){var s=a();i(22),t(e,s)}export{o as component};
