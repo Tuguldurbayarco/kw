@@ -1,5 +1,5 @@
 <section class="heroBanner">
-  <div class="container">
+  <div>
     <img
       style="width: 100% !important;"
       src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/KWMongoliaBanner.webp"
@@ -9,7 +9,7 @@
   <div style="height:75px;" class="borderBottom"></div>
 </section>
 
-<div class="container">
+<div>
   <section class="author globalMB-30">
     <div class="Kwcontainer">
       <div class="authorGrid">
@@ -33,7 +33,7 @@
           </div>
         </div>
         <div class="authorBody globalP">
-          <p>
+          <p class="both-space">
             Keller Williams Realty компанийг үүсгэн байгуулагч Гари Келлерийг
             REALTOR Magazine сэтгүүлээс үл хөдлөх хөрөнгийн салбар дахь хамгийн
             нөлөө бүхий лидерээр нэрлэсэн байдаг. Мөн түүнийг REAL Trends
@@ -59,8 +59,8 @@
 
 <div class="i">
   <div class="Kwcontainer">
-    <div class="interBody interBodyMobile container">
-      <div class="interName" style="grid-column: 2">
+    <div class="interBody interBodyMobile">
+      <div class="interName">
         <h3 class="interNameBold" style="font-size: 24px; font-weight: bold;">
           KELLER WILLIAMS INTERNATIONAL
         </h3>
@@ -110,7 +110,7 @@
 </div>
 
 <section class="beSystem">
-  <div class="container">
+  <div>
     <div class="Kwcontainer">
       <div class="beSystemHeaderh1">
         <h1>WI4C2TES</h1>
@@ -202,7 +202,7 @@
   </div>
 </section>
 
-<div class="container">
+<div>
   <section class="history">
     <div class="Kwcontainer">
       <h1
@@ -231,7 +231,7 @@
 </div>
 
 <section class="world">
-  <div class="container">
+  <div>
     <div class="Kwcontainer">
       <h1
         class="globalBold"
@@ -244,6 +244,7 @@
         <div class="wordBrandName">
           <div class="wordBrandNameLeft">
             <img
+              style="place-self: center;"
               class="same-height-logo"
               src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwtraining.webp"
               alt=""
@@ -257,6 +258,7 @@
         <div class="wordBrandName">
           <div class="wordBrandNameRight">
             <img
+              style="place-self: center;"
               class="same-height-logo"
               src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwforbes.webp"
               alt=""
@@ -269,6 +271,7 @@
         <div class="wordBrandName">
           <div class="wordBrandNameLeft">
             <img
+              style="place-self: center;"
               class="same-height-logo"
               src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwcareerbliss.webp"
               alt=""
@@ -281,6 +284,7 @@
         <div class="wordBrandName">
           <div class="wordBrandNameRight">
             <img
+              style="place-self: center;"
               class="same-height-logo"
               src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwinman.webp"
               alt=""
@@ -295,6 +299,7 @@
         <div class="wordBrandName">
           <div class="wordBrandNameLeft">
             <img
+              style="place-self: center;"
               class="same-height-logo"
               src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwfastcompany.webp"
               alt=""
@@ -307,6 +312,7 @@
         <div style="margin-left: 40px;" class="wordBrandName">
           <div class="wordBrandNameRight">
             <img
+              style="place-self: center;"
               class="same-height-logo"
               src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwnewsweek.webp"
               alt=""
@@ -317,6 +323,7 @@
         <div class="wordBrandName">
           <div class="wordBrandNameLeft">
             <img
+              style="place-self: center;"
               class="same-height-logo"
               src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwindeed.webp"
               alt=""
@@ -343,12 +350,12 @@
       alt=""
     />
   </div>
-  <div class="container">
+  <div>
     <div class="Kwcontainer">
       <div class="worldwkDahin">
         <p
           style="font-size: 16px; display: flex; align-items: flex-end;"
-          class="globalP"
+          class="globalP front-space"
         >
           Keller Williams нь 1070 гаруй оффис, 200,000 гаруй агенттай, үл хөдлөх
           хөрөнгө зуучлалын дэлхийн хамгийн том франчайз юм. 2021 оны 02-р сарын
@@ -388,7 +395,7 @@
   </div>
 </section>
 
-<div class="container">
+<div>
   <section class="evo">
     <div class="Kwcontainer">
       <h1 class="globalBold" style="margin-bottom: 30px;">
@@ -417,7 +424,7 @@
   </section>
 </div>
 
-<div class="container">
+<div>
   <section style="margin-top: 30px;" class="whyLevel">
     <div class="Kwcontainer">
       <div class="whyLevelSurgalt">
@@ -468,7 +475,7 @@
   </section>
 </div>
 
-<div class="container">
+<div>
   <section class="life">
     <div class="Kwcontainer">
       <h1 style="font-weight: bold;">ПАССИВ ОРЛОГО ХҮРТЭХ БОЛОМЖ</h1>
@@ -528,7 +535,7 @@
   </section>
 </div>
 
-<div class="container">
+<div>
   <section class="kwCulture">
     <div class="Kwcontainer">
       <div class="kwCultureBody">
@@ -631,12 +638,6 @@
     z-index: -1;
   }
 
-  .borderBottom h2 {
-    text-align: end;
-    margin-right: 90px;
-    color: white;
-  }
-
   .globalJUS {
     text-align: justify;
     font-size: 16px;
@@ -735,6 +736,9 @@
     display: grid;
     z-index: 3;
     justify-content: center;
+  }
+  .interName {
+    grid-column: 2;
   }
 
   .interBody,
@@ -1885,6 +1889,12 @@
       overflow: hidden;
       margin: 0 auto;
     }
+    .both-space {
+      padding-inline: 20px;
+    }
+    .front-space {
+      padding-left: 20px;
+    }
   }
 
   @media (max-width: 1200px) {
@@ -1942,7 +1952,7 @@
     }
 
     .beSystemFullBorder {
-      width: calc(100% -400px);
+      width: calc(100% - 400px);
     }
 
     .beSystem .beSystemHeaderh1 {
@@ -2142,8 +2152,17 @@
   }
 
   @media (max-width: 991px) {
+    .heroBanner {
+      padding-top: 40px;
+    }
     .Kwcontainer {
       width: 100%;
+    }
+    .both-space {
+      padding-inline: 20px;
+    }
+    .front-space {
+      padding-left: 20px;
     }
 
     .heroBanner img {
@@ -2171,6 +2190,9 @@
   }
 
   @media (max-width: 880px) {
+    .heroBanner {
+      padding-top: 40px;
+    }
     .agentImageSectionTextMobile,
     .agentGridMobile {
       display: block;
@@ -2221,6 +2243,9 @@
   }
 
   @media (max-width: 768px) {
+    .heroBanner {
+      padding-top: 40px;
+    }
     .author {
       margin-top: -8%;
       /* background-color: aqua; */
@@ -2277,6 +2302,12 @@
       color: white;
       text-align: center;
       padding: 30px;
+    }
+    .interName {
+      grid-column: 1;
+    }
+    .interName h3 {
+      text-align: center;
     }
 
     .interName,
@@ -2520,6 +2551,9 @@
   }
 
   @media (max-width: 450px) {
+    .heroBanner {
+      padding-top: 80px;
+    }
     .beSystem .beSystemHeaderh1 {
       width: 70%;
       margin-bottom: -10%;
@@ -2531,9 +2565,5 @@
 
   .beSystemHeaderh1 h1 {
     margin-bottom: revert-layer;
-  }
-
-  .Kwcontainer {
-    width: 80%;
   }
 </style>

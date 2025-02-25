@@ -1,5 +1,5 @@
 <section class="agentHuvi">
-  <div class="container">
+  <div>
     <div class="KwcontainerOther">
       <div
         style="background-image: url('https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/agent_de0036_(1).webp');"
@@ -64,7 +64,7 @@
 </section>
 
 <section class="agentGraphic">
-  <div class="container">
+  <div>
     <div class="KwcontainerOther">
       <div class="agentGraphicGrid">
         <div class="agentGraphicImg">
@@ -92,7 +92,7 @@
 </section>
 
 <section class="agentWorldSurgalt">
-  <div class="container">
+  <div>
     <div class="KwcontainerOther">
       <div class="agentWorldSurgaltGrid">
         <div class="agentWorldSurgaltText">
@@ -116,7 +116,7 @@
 </section>
 
 <section class="agentBidenteiNegdekh">
-  <div class="container">
+  <div>
     <div class="KwcontainerOther">
       <div class="agentBidenteiNegdehGrid">
         <div class="agentBidenteiNegdehText">

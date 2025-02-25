@@ -1,5 +1,5 @@
 <section class="staffWorldSurgalt">
-  <div class="container">
+  <div>
     <div class="KwcontainerOther">
       <div class="staffWorldSurgaltGrid">
         <div class="staffWorldSurgaltText">
@@ -24,7 +24,7 @@
 </section>
 
 <section class="staffBidenteiNegdekh">
-  <div class="container">
+  <div>
     <div class="KwcontainerOther">
       <div class="staffBidenteiNegdehGrid">
         <div class="staffBidenteiNegdehText">
@@ -52,7 +52,7 @@
   </div>
 </section>
 
-<div class="container">
+<div>
   <section class="ajliinBair">
     <div class="KwcontainerOther">
       <h1>НЭЭЛТТЭЙ АЖЛЫН БАЙР</h1>
@@ -60,7 +60,7 @@
   </section>
 </div>
 
-<div class="container">
+<div>
   <section class="ajil">
     <div class="KwcontainerOther">
       <div class="ajliinBairGrid">
