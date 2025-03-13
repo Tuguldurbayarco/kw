@@ -1,3 +1,8 @@
+<script lang="ts">
+  import { _ } from "svelte-i18n";
+  //import { locale, waitLocale } from "svelte-i18n";
+</script>
+
 <section class="agentHuvi">
   <div>
     <div class="KwcontainerOther">

@@ -1,3 +1,7 @@
+<script lang="ts">
+  import { _ } from "svelte-i18n";
+</script>
+
 <section class="heroBanner">
   <div>
     <img
@@ -34,20 +38,7 @@
         </div>
         <div class="authorBody globalP">
           <p class="both-space">
-            Keller Williams Realty компанийг үүсгэн байгуулагч Гари Келлерийг
-            REALTOR Magazine сэтгүүлээс үл хөдлөх хөрөнгийн салбар дахь хамгийн
-            нөлөө бүхий лидерээр нэрлэсэн байдаг. Мөн түүнийг REAL Trends
-            судалгаагаар салбарын “Most Admired People” шагналын топ таван хүний
-            нэгээр тодруулсан байна.
-            <br /><br />
-
-            Түүний бичсэн “The Millionaire Real Estate Agent”, “The Millionaire
-            Real Estate Investor”, “The ONE Thing: The Surprisingly Simple Truth
-            Behind Extraordinary Results” номнууд нь The New York Times болон
-            The Wall Street Journal-ийн бестселлер жагсаалтыг тэргүүлж байсан
-            бөгөөд бусад нэр хүндтэй шагнал болох ‘Ernst &amp; Young
-            Entrepreneur of the Year Award”, мөн ‘Inc. Magazine’s Entrepreneur
-            of the Year’ шагналын финалистыг хүртэж байсан.
+            {@html $_("aboutUs.garyKeller")}
           </p>
         </div>
       </div>
@@ -68,41 +59,43 @@
       </div>
 
       <div class="interTitleName globalP">
-        <h5 style="font-size: 16px;">ЗОРИЛГО:</h5>
+        <h5 style="font-size: 16px;">
+          {$_("aboutUs.international.MISSION.title")}:
+        </h5>
       </div>
       <div class="interTitleTitle globalP">
         <p style="font-size: 16px;">
-          Бидний ЗОРИЛГО бол үнэ цэнтэй ажил мэргэжил, бизнес, амьдралыг бүтээн
-          сайн туршлагуудыг өгч үнэ цэнтэй өвийг үлдээхэд оршино.
+          {$_("aboutUs.international.MISSION.text")}
         </p>
       </div>
       <div class="interTitleName globalP">
-        <h5 style="font-size: 16px;">АЛСЫН ХАРАА:</h5>
+        <h5 style="font-size: 16px;">
+          {$_("aboutUs.international.VISION.title")}:
+        </h5>
       </div>
       <div class="interTitleTitle globalP">
         <p style="font-size: 16px;">
-          Үл хөдлөх хөрөнгийн агентууд болон тэдний харилцагч нарын хамгийн сайн
-          сонголт болсон компани болох юм.
+          {$_("aboutUs.international.VISION.text")}
         </p>
       </div>
       <div class="interTitleName globalP">
-        <h5 style="font-size: 16px;">ҮНЭ ЦЭНЭ:</h5>
+        <h5 style="font-size: 16px;">
+          {$_("aboutUs.international.VALUES.title")}:
+        </h5>
       </div>
       <div class="interTitleTitle globalP">
         <p style="font-size: 16px;">
-          Гэр бүл болон бизнес гэсэн дарааллыг чухалчилна.
+          {$_("aboutUs.international.VALUES.text")}
         </p>
       </div>
       <div class="interTitleName globalP">
-        <h5 style="font-size: 16px;">ХЭТИЙН ТӨЛӨВ:</h5>
+        <h5 style="font-size: 16px;">
+          {$_("aboutUs.international.PERSPECTIVE.title")}:
+        </h5>
       </div>
       <div class="interTitleTitle globalP">
         <p style="font-size: 16px;">
-          Бид ҮХХ н сургалт болон зөвлөх үйлчилгээний компани бөгөөд бүтээмж
-          болон ашигт ажиллагаанд чиглэсэн франчайз систем болон бүтээгдэхүүн
-          үйлчилгээг санал болгодог. Келлер Виллиамс нь хамгийн өндөр бүтээмжтэй
-          топ сэтгэлгээгээр сургагч болон зөвлөх маягаар ажиллаж бүхий л үйл
-          ажиллагаагаа өндөр бүтээмж, ашигт ажиллагаанд чиглүүлдэг.
+          {$_("aboutUs.international.PERSPECTIVE.text")}
         </p>
       </div>
     </div>
@@ -116,85 +109,105 @@
         <h1>WI4C2TES</h1>
       </div>
       <div class="beSystemFullBorder">
-        <h5 style="font-weight:400;">ИТГЭЛ ҮНЭМШИЛ</h5>
+        <h5 style="font-weight:400;">{$_("aboutUs.beliefSystem.title")}</h5>
         <div class="beSystemGrid">
           <div class="beSystemName">
-            <h6>Хож-Хож:</h6>
+            <h6>{$_("aboutUs.beliefSystem.Win-Win.title")}:</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">эсвэл бүү хий</h6>
+            <h6 style="font-weight:400;">
+              {$_("aboutUs.beliefSystem.Win-Win.text")}
+            </h6>
           </div>
         </div>
         <div class="beSystemGrid">
           <div class="beSystemName">
-            <h6>Зарчим:</h6>
+            <h6>{$_("aboutUs.beliefSystem.Integrity.title")}:</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">зөв зүйлийг хийх</h6>
+            <h6 style="font-weight:400;">
+              {$_("aboutUs.beliefSystem.Integrity.text")}
+            </h6>
           </div>
         </div>
         <div class="beSystemGrid">
           <div class="beSystemName">
-            <h6>Харилцагч үйлчлүүлэгч:</h6>
+            <h6>{$_("aboutUs.beliefSystem.Customers.title")}:</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">нэн тэргүүнд</h6>
+            <h6 style="font-weight:400;">
+              {$_("aboutUs.beliefSystem.Customers.text")}
+            </h6>
           </div>
         </div>
         <div class="beSystemGrid">
           <div class="beSystemName">
-            <h6>Өөрийгөө зориулах:</h6>
+            <h6>{$_("aboutUs.beliefSystem.Commitment.title")}:</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">бүх зүйлд</h6>
+            <h6 style="font-weight:400;">
+              {$_("aboutUs.beliefSystem.Commitment.text")}
+            </h6>
           </div>
         </div>
         <div class="beSystemGrid">
           <div class="beSystemName">
-            <h6>Харилцаа:</h6>
+            <h6>{$_("aboutUs.beliefSystem.Communication.title")}:</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">бусадтай ойлголцохыг эрмэлзэх</h6>
+            <h6 style="font-weight:400;">
+              {$_("aboutUs.beliefSystem.Communication.text")}
+            </h6>
           </div>
         </div>
         <div class="beSystemGrid">
           <div class="beSystemName">
-            <h6>Бүтээлч байдал:</h6>
+            <h6>{$_("aboutUs.beliefSystem.Creativity.title")}:</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">санаанаас үр дүнд</h6>
+            <h6 style="font-weight:400;">
+              {$_("aboutUs.beliefSystem.Creativity.text")}
+            </h6>
           </div>
         </div>
         <div class="beSystemGrid">
           <div class="beSystemName">
-            <h6>Багийн ажиллагаа :</h6>
+            <h6>{$_("aboutUs.beliefSystem.Teamwork.title")}:</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">хамтдаа илүү ихийг хийх</h6>
+            <h6 style="font-weight:400;">
+              {$_("aboutUs.beliefSystem.Teamwork.text")}
+            </h6>
           </div>
         </div>
         <div class="beSystemGrid">
           <div class="beSystemName">
-            <h6>Итгэл:</h6>
+            <h6>{$_("aboutUs.beliefSystem.Trust.title")}:</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">үнэнчээр хандах</h6>
+            <h6 style="font-weight:400;">
+              {$_("aboutUs.beliefSystem.Trust.text")}
+            </h6>
           </div>
         </div>
         <div class="beSystemGrid">
           <div class="beSystemName">
-            <h6>Өмч:</h6>
+            <h6>{$_("aboutUs.beliefSystem.Equity.title")}:</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">бүгдэд тэгш боломж</h6>
+            <h6 style="font-weight:400;">
+              {$_("aboutUs.beliefSystem.Equity.text")}
+            </h6>
           </div>
         </div>
         <div class="beSystemGrid">
           <div class="beSystemName">
-            <h6>Амжилт:</h6>
+            <h6>{$_("aboutUs.beliefSystem.Success.title")}:</h6>
           </div>
           <div class="beSystemTitle">
-            <h6 style="font-weight:400;">хүмүүсээр дамжиж ирдэг</h6>
+            <h6 style="font-weight:400;">
+              {$_("aboutUs.beliefSystem.Success.text")}
+            </h6>
           </div>
         </div>
       </div>
@@ -357,11 +370,7 @@
           style="font-size: 16px; display: flex; align-items: flex-end;"
           class="globalP front-space"
         >
-          Keller Williams нь 1070 гаруй оффис, 200,000 гаруй агенттай, үл хөдлөх
-          хөрөнгө зуучлалын дэлхийн хамгийн том франчайз юм. 2021 оны 02-р сарын
-          байдлаар АНУ, Канадаас гадна 52 улсад Мастер Франчайзийн эрх олгогдоод
-          байна. Ирэх 10-н жилд Мастер Франчайз эрхтэй улсыг 100-д хүргэж шинээр
-          100,000 агентаар хүрээгээ тэлэхээр зорин ажиллаж байна.
+          {$_("aboutUs.franchiseInfo")}
         </p>
         <div style="font-weight: 500;" class="worldwkDahinNumber">
           <div class="worldwkDahinNumberZ">

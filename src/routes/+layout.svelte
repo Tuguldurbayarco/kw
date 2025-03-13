@@ -1,7 +1,28 @@
-<script>
+<script lang="ts">
   import "../app.css";
   import menuIcon from "$lib/svg/menu.svg";
   import closeIcon from "$lib/svg/bytesize--close.svg";
+  import mnFlagIcon from "$lib/svg/flag_mn.svg";
+  import usFlagIcon from "$lib/svg/flag_us.svg";
+  import Select from "../components/Select.svelte";
+  import { locale, _ } from "svelte-i18n";
+
+  let currentLocale = $locale;
+  let selectedValue: string | null = currentLocale || null;
+
+  // You can use SVG icons or icon components
+  const options = [
+    {
+      value: "mn",
+      label: "Монгол",
+      icon: mnFlagIcon,
+    },
+    {
+      value: "en-US",
+      label: "English",
+      icon: usFlagIcon,
+    },
+  ];
 
   let isOpen = false;
 
@@ -36,7 +57,9 @@
     >
       <ul class="burger-menu">
         <li style="border-top: 2px solid #2628361a;">
-          <a href="/kw/" on:click={hideMenu}>Бидний тухай</a>
+          <a class="whitespace-nowrap" href="/kw/" on:click={hideMenu}>
+            {$_("layout.aboutUs")}</a
+          >
         </li>
         <li>
           <a href="/kw/join-us-agent" on:click={hideMenu}>Агентаар нэгдэх</a>
@@ -72,23 +95,32 @@
         />
       </a>
     </div>
-    <ul class="header-menu-wide">
-      <li>
-        <a href="/kw/">Бидний тухай</a>
-      </li>
-      <li>
-        <a href="/kw/join-us-agent">Агентаар нэгдэх</a>
-      </li>
-      <li>
-        <a href="/kw/join-us-staff">Ажилтнаар нэгдэх</a>
-      </li>
-      <!-- <li>
+    <div class="flex items-center">
+      <ul class="header-menu-wide">
+        <li class="whitespace-nowrap">
+          <a href="/kw/"> {$_("layout.aboutUs")}</a>
+        </li>
+        <li class="whitespace-nowrap">
+          <a href="/kw/join-us-agent">Агентаар нэгдэх</a>
+        </li>
+        <li class="whitespace-nowrap">
+          <a href="/kw/join-us-staff">Ажилтнаар нэгдэх</a>
+        </li>
+        <!-- <li>
         <a href="/kw/#">Блог</a>
       </li> -->
-      <li>
-        <a href="https://www.kw.com/mn/search" target="_blank">ҮХХ Хайх</a>
-      </li>
-    </ul>
+        <li class="whitespace-nowrap">
+          <a href="https://www.kw.com/mn/search" target="_blank">ҮХХ Хайх</a>
+        </li>
+      </ul>
+      <div class="scale-90 absolute right-2.5 md:scale-none xl:static xl:ml-2">
+        <Select
+          {options}
+          bind:value={selectedValue}
+          placeholder="Select an option"
+        />
+      </div>
+    </div>
   </div>
 </nav>
 
@@ -122,7 +154,7 @@
     position: relative;
     height: 100%;
     padding-left: 24px;
-    padding-right: 48px;
+    padding-right: 36px;
     display: flex;
     align-items: center;
     justify-content: space-between;
