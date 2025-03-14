@@ -375,15 +375,15 @@
         <div style="font-weight: 500;" class="worldwkDahinNumber">
           <div class="worldwkDahinNumberZ">
             <h1 style="font-weight: 900;">5</h1>
-            <h4>Тив</h4>
+            <h4>{$_("aboutUs.Continents")}</h4>
           </div>
           <div class="worldwkDahinNumberZ">
             <h1 style="font-weight: 900;">52</h1>
-            <h4>Улс</h4>
+            <h4>{$_("aboutUs.Countries")}</h4>
           </div>
           <div class="worldwkDahinNumberZ">
             <h1 style="font-weight: 900;">1000+</h1>
-            <h4>Маркет центр</h4>
+            <h4>{$_("aboutUs.MarketCenters")}</h4>
           </div>
         </div>
       </div>
