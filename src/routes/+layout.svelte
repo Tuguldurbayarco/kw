@@ -62,10 +62,14 @@
           >
         </li>
         <li>
-          <a href="/kw/join-us-agent" on:click={hideMenu}>Агентаар нэгдэх</a>
+          <a href="/kw/join-us-agent" on:click={hideMenu}>
+            {$_("layout.joinUsAgent")}</a
+          >
         </li>
         <li>
-          <a href="/kw/join-us-staff" on:click={hideMenu}>Ажилтнаар нэгдэх</a>
+          <a href="/kw/join-us-staff" on:click={hideMenu}
+            >{$_("layout.joinUsAsATeamMember")}</a
+          >
         </li>
         <!-- <li>
         <a href="/kw/#">Блог</a>
@@ -74,7 +78,7 @@
           <a
             href="https://www.kw.com/mn/search"
             target="_blank"
-            on:click={hideMenu}>ҮХХ Хайх</a
+            on:click={hideMenu}>{$_("layout.findProperty")}</a
           >
         </li>
       </ul>
@@ -101,16 +105,18 @@
           <a href="/kw/"> {$_("layout.aboutUs")}</a>
         </li>
         <li class="whitespace-nowrap">
-          <a href="/kw/join-us-agent">Агентаар нэгдэх</a>
+          <a href="/kw/join-us-agent"> {$_("layout.joinUsAgent")}</a>
         </li>
         <li class="whitespace-nowrap">
-          <a href="/kw/join-us-staff">Ажилтнаар нэгдэх</a>
+          <a href="/kw/join-us-staff">{$_("layout.joinUsAsATeamMember")}</a>
         </li>
         <!-- <li>
         <a href="/kw/#">Блог</a>
       </li> -->
         <li class="whitespace-nowrap">
-          <a href="https://www.kw.com/mn/search" target="_blank">ҮХХ Хайх</a>
+          <a href="https://www.kw.com/mn/search" target="_blank"
+            >{$_("layout.findProperty")}</a
+          >
         </li>
       </ul>
       <div class="scale-90 absolute right-2.5 md:scale-none xl:static xl:ml-2">

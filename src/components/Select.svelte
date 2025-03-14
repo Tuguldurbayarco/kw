@@ -68,8 +68,8 @@
 <style>
   .custom-select {
     position: relative;
-    width: 92px;
-    max-width: 92px;
+    width: 100px;
+    max-width: 100px;
     font-family: sans-serif;
     color: #262836;
   }
@@ -99,6 +99,7 @@
   }
 
   .option {
+    width: 100%;
     padding: 10px;
     cursor: pointer;
     display: flex;

@@ -1,6 +1,5 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
-  //import { locale, waitLocale } from "svelte-i18n";
 </script>
 
 <section class="agentHuvi">
@@ -12,56 +11,54 @@
       >
         <div class="agentImageSectionText">
           <h1>
-            АГЕНТАД ХАМГИЙН АШИГТАЙ <span>
-              <span style="margin-top: 5px;"> шимтгэл хуваах загвар</span>
-            </span>
+            {$_("joinUsAgent.commision")}
           </h1>
         </div>
         <div class="agentFlex">
           <div class="agentGrid">
             <div class="agentGridSection">
-              <h1>Эхний жил</h1>
+              <h1>{$_("joinUsAgent.firstYear")}</h1>
               <div class="agentGridSectionBorder"></div>
               <h1>51,200,000₮</h1>
             </div>
             <div class="agentGridSection">
-              <h1>Хоёр дахь жил</h1>
+              <h1>{$_("joinUsAgent.secondYear")}</h1>
               <div class="agentGridSectionBorder"></div>
               <h1>72,850,000₮</h1>
             </div>
             <div class="agentGridSection">
-              <h1>Гурав дахь жил</h1>
+              <h1>{$_("joinUsAgent.thirdYear")}</h1>
               <div class="agentGridSectionBorder"></div>
               <h1>105,770,000₮</h1>
             </div>
             <div class="agentGridSectionShimtgel">
-              <h1>Борлуулалтын шимтгэл 2-5%</h1>
+              <h1>{$_("joinUsAgent.saleCommision")}</h1>
             </div>
           </div>
         </div>
       </div>
       <div class="agentImageSectionTextMobile">
-        <h1>ХАМГИЙН ӨНДӨР ОРЛОГО ХУВААХ ЗАГВАР</h1>
+        <h1>{$_("joinUsAgent.commision")}</h1>
       </div>
 
       <div class="agentGridMobile">
         <div class="agentGridSectionMobile">
-          <h1>Эхний жил</h1>
+          <h1>{$_("joinUsAgent.firstYear")}</h1>
           <div class="agentGridSectionBorderMobile"></div>
           <h1>51,200,000₮</h1>
         </div>
         <div class="agentGridSectionMobile">
-          <h1>Хоёр дахь жил</h1>
+          <h1>{$_("joinUsAgent.secondYear")}</h1>
           <div class="agentGridSectionBorderMobile"></div>
           <h1>72,850,000₮</h1>
         </div>
         <div class="agentGridSectionMobile">
-          <h1>Гурав дахь жил</h1>
+          <h1>{$_("joinUsAgent.thirdYear")}</h1>
           <div class="agentGridSectionBorderMobile"></div>
           <h1>105,770,000₮</h1>
         </div>
         <div class="agentGridSectionShimtgelMobile">
-          <h1>Борлуулалтын шимтгэл 2-5%</h1>
+          <h1>{$_("joinUsAgent.saleCommision")}</h1>
         </div>
       </div>
     </div>
@@ -79,16 +76,9 @@
           />
         </div>
         <div class="agentGraphicText" style="margin-inline:20px">
-          <h1>Шимтгэлийн орлогоо 100% авах CAPPER систем</h1>
+          <h1>{$_("joinUsAgent.capRateSystem.title")}</h1>
           <p>
-            Keller Williams нь тухайн жилдээ агентуудын Маркет Центртээ төлөх
-            мөнгөн дүнгийн дээд хязгаарыг тогтоож өгдөг. Үүнийг CAP RATE (дээд
-            хязгаар) гэж нэрлэнэ. Агент нэгэнт CAP RATE-тэй тэнцэх хэмжээний
-            орлогыг Маркет Центртээ оруулсан бол тухайн жилийнхээ үлдсэн
-            хугацаанд олох бүх шимтгэлийн орлогыг 100% өөртөө авна. Энэхүү
-            загвар нь Keller Williams- тай хамтран ажиллаж буй агентуудад
-            дэлхийн өөр ямар ч компанитай ажилласнаас илүү их орлого ашиг олох
-            боломжийг олгодог.
+            {$_("joinUsAgent.capRateSystem.text")}
           </p>
         </div>
       </div>
@@ -102,12 +92,9 @@
       <div class="agentWorldSurgaltGrid">
         <div class="agentWorldSurgaltText">
           <div class="agentWorldSurgaltTextPara">
-            <h1>Дэлхийн стандарт бүхий сургалтын систем</h1>
+            <h1>{$_("joinUsAgent.worl-ClassTraining.title")}</h1>
             <p>
-              Keller Williams Realty компани нь "Training" сэтгүүлээс жил бүр
-              шалгаруулдаг бүх салбарын хэмжээнд "ШИЛДЭГ" сургалттай компаниар 4
-              удаа шалгарч, улмаар 2018 онд "THE HALL OF FAME" буюу “АЛДРЫН
-              ТАНХИМ”-д өргөмжлөгдсөн.
+              {$_("joinUsAgent.worl-ClassTraining.text")}
             </p>
           </div>
         </div>
@@ -126,12 +113,9 @@
       <div class="agentBidenteiNegdehGrid">
         <div class="agentBidenteiNegdehText">
           <div class="agentBidenteiNegdehTextPara">
-            <h1>Бидэнтэй хамтран ажиллах</h1>
+            <h1>{$_("joinUsAgent.joinUs.title")}</h1>
             <p>
-              Та дэлхийн хамгийн том үл хөдлөх хөрөнгийн мэргэжилтэнгүүдийн
-              сүлжээнд нэгдэн өөрийн бизнесийг боломжит дээд төвшинд
-              хөгжүүлэхийг хүсч байвал KWMongolia таны хамгийн зөв сонголт байх
-              болно.
+              {$_("joinUsAgent.joinUs.text")}
             </p>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSfbJNo3AO_8e6ZCw1xfG0OS0k8zFMbfNHLAU3uBoalEVk3nbg/viewform"
@@ -139,7 +123,7 @@
               rel="noopener noreferrer"
               aria-label="fill the anket"
             >
-              <input type="button" value="Анкет бөглөх" />
+              <input type="button" value={$_("joinUsAgent.sendRequest")} />
             </a>
           </div>
         </div>

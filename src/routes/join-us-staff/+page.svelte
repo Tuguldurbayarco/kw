@@ -1,3 +1,7 @@
+<script lang="ts">
+  import { _ } from "svelte-i18n";
+</script>
+
 <section class="staffWorldSurgalt">
   <div>
     <div class="KwcontainerOther">
@@ -5,12 +9,10 @@
         <div class="staffWorldSurgaltText">
           <div class="staffWorldSurgaltTextPara">
             <h1 style="font-weight: bold;">
-              Хамгийн аз жаргалтайгаар ажиллах орчин
+              {$_("joinUsAsATeamMember.happiestPlace.title")}
             </h1>
             <p>
-              Keller Williams нь ”CareerBliss.com” судалгааны байгууллагын
-              шалгаруулалтаар 2018 оноос хойш жил бүр ”Ажиллахад хамгийн таатай
-              компани” -ийн нэгээр тогтмол шалгарч байгаа.
+              {$_("joinUsAsATeamMember.happiestPlace.text")}
             </p>
           </div>
         </div>
@@ -30,16 +32,18 @@
         <div class="staffBidenteiNegdehText">
           <div class="staffBidenteiNegdehTextPara">
             <p>
-              KWMongolia-н удирдлагын багт орж мэргэжлийн шилдэг агент бэлдэх,
-              Монголын үл хөдлөх хөрөнгийн салбарын хөгжилд онцгой хувь нэмэр
-              оруулах зорилгод нэгдэн хамтран ажиллахыг урьж байна.
+              {$_("joinUsAsATeamMember.joinUsText")}
             </p>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSfS261E2XD8PjUKOf6FbDxXUX0o-JOVNWEviPYYf9bvlApvCw/viewform?fbclid=IwAR3PhokzW9X7X2qjr2E9m6heHPFutrNnWLipgcJxvsEmvdA-mR1hW5hlegs"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="joinUsAsATeamMember"
             >
-              <input type="button" value="CV Илгээх" />
+              <input
+                type="button"
+                value={$_("joinUsAsATeamMember.joinUsButton")}
+              />
             </a>
           </div>
         </div>
