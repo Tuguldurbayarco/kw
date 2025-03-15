@@ -114,7 +114,17 @@
       "text": "Keller Williams has been named one of CareerBliss.com’s as “The happiest place to work for” every year since 2018."
     },
     "joinUsText": "We invite you to join us to be part of the leadership team to build professional real estate agents and make a difference in Mongolia's real estate sector.",
-    "joinUsButton": "Join us"
+    "joinUsButton": "Join us",
+    "jobName": "Job Title",
+    "jobResponsibilities": "Key Responsibilities",
+    "jobAdministrator": {
+      "name": "Market Center Administrator",
+      "description": "<b> • </b>            <p>              Implement and oversee Market Center policies, procedures, and operational systems.             </p>            <b> • </b>            <p>              Provide daily guidance and support to agents.            </p>            <b> • </b>            <p> Ensure efficient office organization and administration.</p>            <b> • </b>            <p>Draft, review, and maintain official documents and contracts.  </p>            <b> • </b>            <p>Manage banking, financial, and accounting records, ensuring data reconciliation. </p>            <b> • </b>            <p>              Supervise office staff and oversee administrative operations.            </p>            <b> • </b>            <p>Prepare, submit, and track monthly reports. </p>            <b> • </b>            <p>Organize meeting agendas and record minutes.</p>                 "
+    },
+    "jobExecutive": {
+      "name": "Market Center Executive Director",
+      "description": "<b> • </b>            <p>    Develop and implement policies and procedures to ensure the efficient operation of the Market Center.          </p>            <b> • </b>            <p>Recruit, interview, and select agents to build a strong team.  </p>            <b> • </b>            <p>Coordinate and oversee training programs to enhance agent performance.  </p>            <b> • </b>            <p>Organize sales and business meetings to drive growth and alignment.  </p>            <b> • </b>            <p>              Conduct performance evaluations for key employees and agents.           </p>            <b> • </b>           <p>            Develop and execute strategies to expand the Market Center's market share.             </p>            <b> • </b>            <p>Uphold and promote the distinctive Keller Williams company culture.</p>"
+    }
   },
 
   "welcome": "Bienvenue sur notre site web !"

@@ -73,41 +73,18 @@
             style="font-weight: bold; color: black; margin-top: 30px;
 margin-bottom: 25px; "
           >
-            Ажлын байрны нэр: <br />
+            {$_("joinUsAsATeamMember.jobName")}: <br />
             <span>
               <p style="margin-top: 5px;">
-                МАРКЕТ ЦЕНТРИЙН ГҮЙЦЭТГЭХ ЗАХИРАЛ
+                {$_("joinUsAsATeamMember.jobExecutive.name")}
               </p></span
             >
           </h3>
           <h3 style="font-weight: bold; color: black;">
-            Гүйцэтгэх үндсэн чиг үүрэг
+            {$_("joinUsAsATeamMember.jobResponsibilities")}
           </h3>
           <div class="ajliinBairLeftZar">
-            <b> • </b>
-            <p>
-              Маркет Центрын үйл ажиллагаа хэвийн явуулахад шаардлагатай дүрэм
-              журмыг боловсруулах
-            </p>
-
-            <b> • </b>
-            <p>Агент сонгон шалтгаруулах, ярилцлага хийх</p>
-            <b> • </b>
-            <p>Агентуудад чухал шаардлагатай сургалтуудыг зохион байгуулах</p>
-            <b> • </b>
-            <p>Борлуулалт, бизнес уулзалтуудыг зохион байгуулах</p>
-            <b> • </b>
-            <p>
-              Үндсэн ажилтнууд болон агентуудын ажлын гүйцэтгэлийн үнэлгээ хийх
-            </p>
-            <b> • </b>
-            <p>
-              Маркет Центрын зах зээлийн эзлэх хувийг нэмэгдүүлэх стратеги,
-              тактикийг тодорхойлох
-            </p>
-
-            <b> • </b>
-            <p>Keller Williams компанийн онцгой соёлыг түгээх, үлгэрлэх</p>
+            {@html $_("joinUsAsATeamMember.jobExecutive.description")}
           </div>
         </div>
         <div class="ajliinBairRight">
@@ -115,44 +92,18 @@ margin-bottom: 25px; "
             style="font-weight: bold; text-align: left; color: black; margin-top: 30px;
 margin-bottom: 25px;"
           >
-            Ажлын байрны нэр: <br />
+            {$_("joinUsAsATeamMember.jobName")}: <br />
             <span>
-              <p style="margin-top: 5px;">МАРКЕТ ЦЕНТРИЙН АДМИНИСТРАТОР</p>
+              <p style="margin-top: 5px;">
+                {$_("joinUsAsATeamMember.jobAdministrator.name")}
+              </p>
             </span>
           </h3>
           <h3 style="font-weight: bold; color: black; text-align: left;">
-            Гүйцэтгэх үндсэн чиг үүрэг
+            {$_("joinUsAsATeamMember.jobResponsibilities")}
           </h3>
           <div class="ajliinBairLeftZar">
-            <b> • </b>
-            <p>
-              Маркет Центрийн дүрэм журмыг хэрэгжүүлэх, хянах, үр өгөөжтэй
-              системүүдийг нэвтрүүлж
-            </p>
-
-            <b> • </b>
-            <p>
-              Агентуудын өдөр тутмын үйл ажиллагааг удирдан чиглүүлэх, заавар
-              мэдээлэл өгөх
-            </p>
-            <b> • </b>
-            <p>Оффисын ерөнхий зохион байгуулалтын хангах</p>
-            <b> • </b>
-            <p>Албан бичиг боловсруулах</p>
-            <b> • </b>
-            <p>Гэрээ боловсруулах архивлах</p>
-            <b> • </b>
-            <p>
-              Банк, санхүү, нягтлан бодох бүртгэл хөтлөх, тоон мэдээлэл
-              боловчруулах
-            </p>
-
-            <b> • </b>
-            <p>Оффисын ажилтнуудад хяналт тавих</p>
-            <b> • </b>
-            <p>Сар бүрийн тайлан мэдээг илгээх, хянах, бүртгэх</p>
-            <b> • </b>
-            <p>Хэлэлцэх асуудал бэлдэх, хурлын тэмдэглэл хөтлөх</p>
+            {@html $_("joinUsAsATeamMember.jobAdministrator.description")}
           </div>
         </div>
       </div>
