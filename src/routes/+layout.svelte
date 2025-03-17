@@ -4,6 +4,7 @@
   import closeIcon from "$lib/svg/bytesize--close.svg";
   import mnFlagIcon from "$lib/svg/flag_mn.svg";
   import usFlagIcon from "$lib/svg/flag_us.svg";
+  import kwLogo from "$lib/images/kw-logo.jpeg";
   import Select from "../components/Select.svelte";
   import { locale, _ } from "svelte-i18n";
 
@@ -58,8 +59,8 @@
       <ul class="burger-menu">
         <li style="border-top: 2px solid #2628361a;">
           <a class="whitespace-nowrap" href="/kw/" on:click={hideMenu}>
-            {$_("layout.aboutUs")}</a
-          >
+            {$_("layout.aboutUs")}
+          </a>
         </li>
         <li>
           <a href="/kw/join-us-agent" on:click={hideMenu}>
@@ -92,34 +93,30 @@
 
     <div class="logo-container">
       <a href="/kw/">
-        <img
-          class="logo-style"
-          src="https://dims.web.production.kw-prod.brightspot.cloud/dims4/default/60ce1d0/2147483647/strip/true/crop/666x174+0+0/resize/400x105!/quality/90/?url=https%3A%2F%2Fstorage.googleapis.com%2Fattachment-prod-e2ad%2F840244%2Fcp3h76m758ks70gjgg80.png"
-          alt=""
-        />
+        <img class="logo-style" src={kwLogo} alt="" />
       </a>
     </div>
     <div class="flex items-center">
       <ul class="header-menu-wide">
-        <li class="whitespace-nowrap">
+        <li class="whitespace-nowrap font-bold">
           <a href="/kw/"> {$_("layout.aboutUs")}</a>
         </li>
-        <li class="whitespace-nowrap">
+        <li class="whitespace-nowrap font-bold">
           <a href="/kw/join-us-agent"> {$_("layout.joinUsAgent")}</a>
         </li>
-        <li class="whitespace-nowrap">
+        <li class="whitespace-nowrap font-bold">
           <a href="/kw/join-us-staff">{$_("layout.joinUsAsATeamMember")}</a>
         </li>
         <!-- <li>
         <a href="/kw/#">Блог</a>
       </li> -->
-        <li class="whitespace-nowrap">
+        <li class="whitespace-nowrap font-bold">
           <a href="https://www.kw.com/mn/search" target="_blank"
             >{$_("layout.findProperty")}</a
           >
         </li>
       </ul>
-      <div class="scale-90 absolute right-2.5 md:scale-none xl:static xl:ml-2">
+      <div class="scale-90 absolute right-2.5 md:scale-none xl:static xl:ml-4">
         <Select
           {options}
           bind:value={selectedValue}
@@ -141,7 +138,7 @@
   }
 
   .logo-style {
-    max-width: 180px;
+    max-width: 80px;
   }
   nav {
     z-index: 999;
@@ -260,7 +257,7 @@
       display: block;
     }
     .logo-style {
-      max-width: 121px;
+      max-width: 80px;
     }
     .bg-faded {
       background: rgba(0, 0, 0, 0.5);

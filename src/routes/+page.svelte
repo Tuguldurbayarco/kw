@@ -1,5 +1,6 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
+  import timelineWeb from "$lib/svg/timeline_web.svg";
 </script>
 
 <section class="heroBanner">
@@ -228,10 +229,7 @@
     </div>
     <div class="Kwcontainer">
       <div style="overflow-x: scroll;" class="historyTimeLine">
-        <img
-          src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/timeline_color-01-svg%20(1).svg"
-          alt=""
-        />
+        <img src={timelineWeb} alt="" />
       </div>
       <div class="historyTimeLinePhone">
         <img
@@ -263,8 +261,8 @@
               alt=""
             />
             <h5 class="globalP global-text">
-              Full training system <br />
-              TOP10 Hall of Fame
+              Full training system TOP 10<br />
+              Hall of Fame
             </h5>
           </div>
         </div>
@@ -286,14 +284,16 @@
             <img
               style="place-self: center;"
               class="same-height-logo"
-              src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwcareerbliss.webp"
+              src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwindeed.webp"
               alt=""
             />
             <h5 class="globalP global-text">
-              #1 The happiest company to work for
+              #1 Work-Life balanced <br />
+              #1 Empathy for corporate culture company
             </h5>
           </div>
         </div>
+
         <div class="wordBrandName">
           <div class="wordBrandNameRight">
             <img
@@ -322,7 +322,7 @@
             </h5>
           </div>
         </div>
-        <div style="margin-left: 40px;" class="wordBrandName">
+        <div class="wordBrandName">
           <div class="wordBrandNameRight">
             <img
               style="place-self: center;"
@@ -338,12 +338,11 @@
             <img
               style="place-self: center;"
               class="same-height-logo"
-              src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwindeed.webp"
+              src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwcareerbliss.webp"
               alt=""
             />
             <h5 class="globalP global-text">
-              #1 Work-Life balanced <br />
-              #1 Empathy for corporate culture company
+              #1 The happiest company to work for
             </h5>
           </div>
         </div>
@@ -380,7 +379,7 @@
             <h4>{$_("aboutUs.Continents")}</h4>
           </div>
           <div class="worldwkDahinNumberZ">
-            <h1 style="font-weight: 900;">52</h1>
+            <h1 style="font-weight: 900;">61</h1>
             <h4>{$_("aboutUs.Countries")}</h4>
           </div>
           <div class="worldwkDahinNumberZ">
@@ -938,7 +937,7 @@
     font-size: 90px;
     text-align: center;
     font-weight: 400;
-    margin-block-end: 0.63em !important;
+    /* margin-block-end: 0.63em !important; */
   }
 
   .worldwkDahinNumberZ h4 {
