@@ -222,7 +222,7 @@
         style="font-size: 24px; color: #de0036; margin-bottom: 30px;"
         class="globalBold"
       >
-        ТҮҮХЭН ХӨГЖИЛ
+        {$_("aboutUs.historical_development")}
       </h1>
       <!--   <div class="historyTimeLineBoder"> -->
     </div>
@@ -250,7 +250,7 @@
         class="globalBold"
         style="margin-bottom: 30px; max-width: 100%; padding-top:30px;"
       >
-        ДЭЛХИЙН ХЭМЖЭЭНИЙ ШАГНАЛУУД
+        {$_("aboutUs.global_awards")}
       </h1>
       <!-- <div class="wordBrandBorder"></div> -->
       <div class="wordBrand">
@@ -354,7 +354,9 @@
 
 <section class="worldKW">
   <div class="Kwcontainer">
-    <h1 class="globalBold" style="margin-bottom:30px;">KW ДЭЛХИЙ ДАХИНД</h1>
+    <h1 class="globalBold" style="margin-bottom:30px;">
+      {$_("aboutUs.kw_worldwide")}
+    </h1>
     <!--   <div class="worldwkDahinBorder"></div> -->
   </div>
   <div class="Kwcontainer" style="padding: 0px; width:100%;">
@@ -408,7 +410,7 @@
   <section class="evo">
     <div class="Kwcontainer">
       <h1 class="globalBold" style="margin-bottom: 30px;">
-        ҮЛ ХӨДЛӨХ ХӨРӨНГИЙН САЛБАРТ ХИЙСЭН ХУВЬСГАЛ
+        {$_("aboutUs.real_estate_revolution")}
       </h1>
       <!--     <div class="evoBorder"></div> -->
       <img
@@ -472,7 +474,9 @@
 <div>
   <section class="life">
     <div class="Kwcontainer">
-      <h1 style="font-weight: bold;">ПАССИВ ОРЛОГО ХҮРТЭХ БОЛОМЖ</h1>
+      <h1 style="font-weight: bold;">
+        {$_("aboutUs.passive_income_opportunity")}
+      </h1>
       <!--  <div class="lifeBorder"></div> -->
       <div class="lifeBaylag">
         <img

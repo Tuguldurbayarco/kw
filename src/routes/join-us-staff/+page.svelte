@@ -55,11 +55,10 @@
     </div>
   </div>
 </section>
-
 <div>
   <section class="ajliinBair">
     <div class="KwcontainerOther">
-      <h1>НЭЭЛТТЭЙ АЖЛЫН БАЙР</h1>
+      <h1>{$_("aboutUs.open_job_positions")}</h1>
     </div>
   </section>
 </div>
