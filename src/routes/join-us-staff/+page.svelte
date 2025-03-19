@@ -8,7 +8,7 @@
       <div class="staffWorldSurgaltGrid">
         <div class="staffWorldSurgaltText">
           <div class="staffWorldSurgaltTextPara">
-            <h1 style="font-weight: bold;">
+            <h1 style="font-weight: bold;" class="pb-4">
               {$_("joinUsAsATeamMember.happiestPlace.title")}
             </h1>
             <p>

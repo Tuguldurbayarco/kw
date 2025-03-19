@@ -495,8 +495,8 @@
           src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/graphics.svg"
           alt=""
         />
-        <div>
-          <div class=" lifeBaylagP lifeBaylagP-top">
+        <div class="lifeBayGap">
+          <div class="lifeBaylagP lifeBaylagP-top">
             <h3
               style="color: #bd152e; font-size: 18px; text-align: start; font-weight:bold; "
             >
@@ -1022,9 +1022,9 @@
   .whyLevelSurgaltFrame h2 {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
     margin-bottom: 10px;
   }
 
@@ -1037,8 +1037,8 @@
   }
 
   .whyLevelSurgaltFrame p {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: 30px;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 16px;
@@ -1066,6 +1066,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 20px;
+  }
+  .lifeBayGap {
+    padding-top: 48px;
   }
 
   .lifeBaylagP-top h3 {
@@ -1120,11 +1123,11 @@
   }
 
   .kwCultureBodySection {
-    padding: 20px;
+    padding: 30px;
     background-color: #bd152e;
     color: white;
     text-align: start;
-
+    align-content: center;
     text-align: justify;
   }
 
@@ -1147,7 +1150,8 @@
   }
 
   .kwCultureBodySection-white {
-    padding: 20px;
+    align-content: center;
+    padding: 30px;
     color: black;
     text-align: start;
   }
@@ -1946,6 +1950,23 @@
   }
 
   @media (max-width: 1100px) {
+    .whyLevelSurgaltFrame h2 {
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 30px;
+      margin-bottom: 10px;
+    }
+
+    .whyLevelSurgaltFrame p {
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px;
+      font-family: "Roboto Condensed", sans-serif;
+      font-size: 16px;
+    }
+
     .staffWorldSurgaltText {
       padding: 60px 60px;
     }
@@ -2083,6 +2104,9 @@
 
     .lifeBaylag {
       grid-template-columns: repeat(1, 1fr);
+    }
+    .lifeBayGap {
+      padding-top: 0px;
     }
 
     /* lifeBaylagP */

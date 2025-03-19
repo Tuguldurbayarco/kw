@@ -92,10 +92,26 @@
       <div class="agentWorldSurgaltGrid">
         <div class="agentWorldSurgaltText">
           <div class="agentWorldSurgaltTextPara">
-            <h1>{$_("joinUsAgent.worl-ClassTraining.title")}</h1>
+            <h1 class="pb-4">{$_("joinUsAgent.worl-ClassTraining.title")}</h1>
             <p>
               {$_("joinUsAgent.worl-ClassTraining.text")}
             </p>
+          </div>
+        </div>
+        <div class="agentBidenteiNegdehText">
+          <div class="agentBidenteiNegdehTextPara">
+            <h1 class="pb-4">{$_("joinUsAgent.joinUs.title")}</h1>
+            <p>
+              {$_("joinUsAgent.joinUs.text")}
+            </p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfbJNo3AO_8e6ZCw1xfG0OS0k8zFMbfNHLAU3uBoalEVk3nbg/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="fill the anket"
+            >
+              <input type="button" value={$_("joinUsAgent.sendRequest")} />
+            </a>
           </div>
         </div>
         <div
@@ -111,22 +127,6 @@
   <div>
     <div class="KwcontainerOther">
       <div class="agentBidenteiNegdehGrid">
-        <div class="agentBidenteiNegdehText">
-          <div class="agentBidenteiNegdehTextPara">
-            <h1>{$_("joinUsAgent.joinUs.title")}</h1>
-            <p>
-              {$_("joinUsAgent.joinUs.text")}
-            </p>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfbJNo3AO_8e6ZCw1xfG0OS0k8zFMbfNHLAU3uBoalEVk3nbg/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="fill the anket"
-            >
-              <input type="button" value={$_("joinUsAgent.sendRequest")} />
-            </a>
-          </div>
-        </div>
         <div
           style="background-image: url('https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/negdeh_Banner (1).webp');"
           class="agentBidenteiNegdehImage"
@@ -315,6 +315,7 @@ grid-column-start: 1; */
     background-position: center;
     grid-row: 1/1;
     grid-column: 1/21;
+    margin-bottom: 26px;
   }
 
   .agentWorldSurgaltText {
@@ -326,8 +327,7 @@ grid-column-start: 1; */
     isolation: isolate;
     z-index: 5;
     grid-row: 2/2;
-    grid-column: 2/9;
-    margin-top: -26.5%;
+    grid-column: 2/10;
   }
 
   .agentWorldSurgaltTextPara h1 {
@@ -365,8 +365,7 @@ grid-column-start: 1; */
     align-items: center;
     isolation: isolate;
     z-index: 5;
-    grid-column: 13/20;
-    margin-bottom: -10%;
+    grid-column: 11/20;
   }
 
   .agentBidenteiNegdehTextPara p {
@@ -494,6 +493,12 @@ grid-column-start: 1; */
   }
 
   @media (max-width: 1100px) {
+    .agentWorldSurgaltImg {
+      margin-bottom: 0px;
+    }
+    .agentBidenteiNegdekh {
+      margin-top: 0px;
+    }
     .agentWorldSurgaltGrid,
     .agentBidenteiNegdehGrid {
       grid-template-columns: repeat(1, 1fr);
@@ -508,12 +513,15 @@ grid-column-start: 1; */
       grid-column: 1/1;
       grid-row: 2/2;
       margin: 0;
+      padding: 30px;
     }
 
     .agentBidenteiNegdehText {
       grid-column: 1/1;
-      grid-row: 2/2;
+      grid-row: 3/3;
       margin: 0;
+      padding: 30px;
+      justify-content: start;
     }
 
     .agentBidenteiNegdehImage {
