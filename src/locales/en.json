@@ -2,11 +2,12 @@
   "layout": {
     "aboutUs": "About us",
     "joinUsAgent": "Join us as an agent",
-    "joinUsAsATeamMember": "Join us as a team member",
+    "joinUsAsATeamMember": "Join our core team",
     "findProperty": "Find property"
   },
   "aboutUs": {
     "garyKeller": "As executive chairman of KWx – a holding company that represents the collection of all Keller Williams affiliates and subsidiaries – Gary Keller helps set the strategic direction to create alignment, scale, and efficiencies across the Keller Williams ecosystem. He is focused on expanding market share and helping agents boost their production to fund their lives and create opportunities through technology. <br><br> Gary is the New York Times bestselling author of several books, including The Millionaire Real Estate Agent, The Millionaire Real Estate Investor, SHIFT: How Top Real Estate Agents Tackle Tough Times, and The ONE Thing: The Surprisingly Simple Truth Behind Extraordinary Results, which reached #1 on the Wall Street Journal business bestseller list.<br><br> A recipient of the Ernst & Young Entrepreneur of the Year Award and finalist for Inc. Magazine’s Entrepreneur of the Year, Keller is widely recognized as a business leader. REALTOR® Magazine named him one of real estate’s most influential thought leaders. A REAL Trends survey identified Gary as one of the five “Most Admired People” in real estate.",
+    "garyName": "GARY KELLER",
     "international": {
       "MISSION": {
         "title": "MISSION",
@@ -53,38 +54,38 @@
     "Countries": "Countries",
     "MarketCenters": "Market Centers",
     "WorldStandartTraining": {
-      "title": "WORLD-CLASS TRAINING FOR A WORLD-CLASS ORGANIZATION.",
+      "title": "World-class training for a world-class organization",
       "text": "At Keller Williams, our commitment to education is unparalleled. From classroom training to on-demand, online education, and our award-winning coaching programs we provide the most advanced and comprehensive learning opportunities in real estate. "
     },
     "BestTechnology": {
-      "title": "BEST TECHNOLOGY",
+      "title": "Best technology",
       "text": "At Keller Williams, we believe technology exists to simplyfy everyday life, making room for what truly matters and giving you the freedom to be more human, more present – more everything. Now, as home and business increasingly coexist and virtual life weaves itself into reality, you need a partner with the right tools, tech, and resources to help you maintain your business at the highest level- rain or shine. You’ll find that partner in Keller Williams."
     },
     "PassiveIncome": {
       "title": "PASSIVE INCOME",
       "CultureOfSharing": {
-        "title": "CULTURE OF SHARING",
+        "title": "Culture of sharing",
         "text": "Agents have been driving Keller Williams’ culture from the very beginning. When the idea of profit share was introduced, many called us radical – some even called us crazy. We think it’s crazy do not reward those that support the growth of a company, so we make sure everyone has access to this powerful wealth-building platform."
       },
       "OverBillionShared": {
-        "title": "OVER $1 BILLION SHARED",
+        "title": "Over $1 billion shared",
         "text": "Money is good for the good it can do. From building your dream home to putting your child through school, taking the worry out of the dream lets you enjoy the moments in the middle. Early on, Keller Williams Co-Founder and CEO Gary Keller, among with his fellow leaders, created the profit share program to ensure the goals of KW owners and agents permanently aligned. Innumerable lives have been changed as a result. KW CUMULATIVE PROFIT SHARE FROM 1997 - 2019"
       }
     },
     "CultureOfGiving": {
-      "title": "A CULTURE OF GIVING",
+      "title": "A culture of giving",
       "text": "Who you choose to be in business with has never mattered more. A company that encourages creativity, compassion, collaboration, and communication is where top agents want to be. Our market centers are designed to give you the energy and inspiration you need to be at your best because when you’re feeling good, you have energy to bestow on others."
     },
     "KWCare": {
-      "title": "KW CARE",
+      "title": "KW care",
       "text": "At the heart of Keller Williams’ culture is our shared commitment to help those in need. Founded in 2003, the KW Cares charity provides global support to Keller Williams associates and their families. From medical emergencies to natural disasters, we’re there for you in the face of unexpected hardship. In life, tough times are inevitable, and it is then that we must come together to support those in need. Through the incredible generosity of our associates, our company is able to care for its own during national, regional, local and personal crises."
     },
     "RedDay": {
-      "title": "RED DAY",
+      "title": "Red day",
       "text": "Gratitude extends beyond our walls. Inaugurated in 2009, RED Day (Renew, Energize and Donate) is our annual, companywide day of community service. Keller Williams associates lock forward to “give where they live” and dedicate a day to renewing and energizing the communities they serve."
     },
     "KWKidsCan": {
-      "title": "KW KIDS CAN",
+      "title": "KW kids can",
       "text": "Envisioned by Gary Keller, this nonprofit brings Keller Williams’ strengths in education and training to the next generation of entrepreneurs and world leaders. The organization is committed to providing our youth with powerful learning experiences that inspire big thinking, promote wealth building, and instill a passion for generous giving."
     },
     "historical_development": "KW TIMELINE",
@@ -92,7 +93,7 @@
     "kw_worldwide": "KW WORLDWIDE",
     "real_estate_revolution": "REVOLUTION IN REAL ESTATE",
     "passive_income_opportunity": "PASSIVE INCOME OPPORTUNITY",
-    "open_job_positions": "OPEN POSITIONS"
+    "open_job_positions": "Open positions"
   },
   "joinUsAgent": {
     "commision": "The HIGHEST COMMISSION SPLIT MODEL in real estate",
@@ -105,18 +106,18 @@
       "text": "Keller Williams commission structure sets the CAP RATE system (upper limit). Each office has a cap on commissions based on economic conditions and operating expenses for that specific market center. Once an agent reaches the set amount of CAP RATE, the agent is at a 100% commission until their anniversary year starts again. This structure allows agents to make more income than with any other company. This very competitive commission split system makes Keller Williams the largest real estate company in the world."
     },
     "worl-ClassTraining": {
-      "title": "WORLD-CLASS TRAINING",
+      "title": "World-class training",
       "text": "Keller Williams was Inducted into Training Magazine’s Hall of Fame in 2018 after they ranked in the Top 10 of the Training Top 125 companies for four consecutive years."
     },
     "joinUs": {
-      "title": "JOIN US",
+      "title": "Join us",
       "text": "Keller Williams Mongolia invites you to cooperate with us to grow your business with world-class training and technology."
     },
     "sendRequest": "Send a request"
   },
   "joinUsAsATeamMember": {
     "happiestPlace": {
-      "title": "THE HAPPIEST PLACE TO WORK FOR",
+      "title": "The happiest place to work for",
       "text": "Keller Williams has been named one of CareerBliss.com’s as “The happiest place to work for” every year since 2018."
     },
     "joinUsText": "We invite you to join us to be part of the leadership team to build professional real estate agents and make a difference in Mongolia's real estate sector.",

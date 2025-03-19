@@ -1,6 +1,13 @@
 <script lang="ts">
+  // NOTE: old red was: #de0036
   import { _ } from "svelte-i18n";
+  import { locale } from "svelte-i18n";
   import timelineWeb from "$lib/svg/timeline_web.svg";
+
+  let currentLang = "";
+  locale.subscribe((value) => (currentLang = value ?? ""));
+
+  // 7 15
 </script>
 
 <section class="heroBanner">
@@ -18,7 +25,7 @@
   <section class="author globalMB-30">
     <div class="Kwcontainer">
       <div class="authorGrid">
-        <div class="authorImage" style="margin-top:15%">
+        <div class="authorImage" style="margin-top:68px">
           <img
             src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwprofile.webp"
             alt=""
@@ -27,13 +34,7 @@
               <div class="authorTitle"> -->
           <div style="padding-left: 15px;" class="leftBorder">
             <h3 style="color: black;" class="leftBorder24 globalBold">
-              ГАРИ КЕЛЛЕР
-            </h3>
-            <h3
-              style="font-size: 20px; font-weight: bold; color: #666666;"
-              class="leftborder20 globalbold"
-            >
-              GARY KELLER
+              {$_("aboutUs.garyName")}
             </h3>
           </div>
         </div>
@@ -47,9 +48,8 @@
   </section>
 </div>
 
-<div style="height:750px; width: 35%; " class="leftSide"></div>
-
-<div class="i">
+<div class="i" style="position: relative;">
+  <div style="width: 35%; height:100%" class="leftSide"></div>
   <div class="Kwcontainer">
     <div class="interBody interBodyMobile">
       <div class="interName">
@@ -220,7 +220,7 @@
   <section class="history">
     <div class="Kwcontainer">
       <h1
-        style="font-size: 24px; color: #de0036; margin-bottom: 30px;"
+        style="font-size: 24px; color: #bd152e; margin-bottom: 30px;"
         class="globalBold"
       >
         {$_("aboutUs.historical_development")}
@@ -376,15 +376,27 @@
         <div style="font-weight: 500;" class="worldwkDahinNumber">
           <div class="worldwkDahinNumberZ">
             <h1 style="font-weight: 900;">5</h1>
-            <h4>{$_("aboutUs.Continents")}</h4>
+            <h4
+              class={currentLang === "en-US" ? "worldKWDahinNumberSmall" : ""}
+            >
+              {$_("aboutUs.Continents")}
+            </h4>
           </div>
           <div class="worldwkDahinNumberZ">
             <h1 style="font-weight: 900;">61</h1>
-            <h4>{$_("aboutUs.Countries")}</h4>
+            <h4
+              class={currentLang === "en-US" ? "worldKWDahinNumberSmall" : ""}
+            >
+              {$_("aboutUs.Countries")}
+            </h4>
           </div>
           <div class="worldwkDahinNumberZ">
             <h1 style="font-weight: 900;">1000+</h1>
-            <h4>{$_("aboutUs.MarketCenters")}</h4>
+            <h4
+              class={currentLang === "en-US" ? "worldKWDahinNumberSmall" : ""}
+            >
+              {$_("aboutUs.MarketCenters")}
+            </h4>
           </div>
         </div>
       </div>
@@ -486,7 +498,7 @@
         <div>
           <div class=" lifeBaylagP lifeBaylagP-top">
             <h3
-              style="color: #de0036; font-size: 18px; text-align: start; font-weight:bold; "
+              style="color: #bd152e; font-size: 18px; text-align: start; font-weight:bold; "
             >
               {$_("aboutUs.PassiveIncome.CultureOfSharing.title")}
             </h3>
@@ -503,7 +515,7 @@
             <h3
               style="font-weight: bold; font-size: 18px; text-align: start; color: black;"
             >
-              <span style="color: #de0036; font-size: 18px;">
+              <span style="color: #bd152e; font-size: 18px;">
                 {$_("aboutUs.PassiveIncome.OverBillionShared.title")}</span
               >
             </h3>
@@ -590,7 +602,7 @@
 
   .borderBottom {
     height: 25px;
-    background-color: #de0036;
+    background-color: #bd152e;
     padding: 40px;
     z-index: -1;
   }
@@ -640,7 +652,7 @@
   }
 
   .authorBody {
-    margin-top: 15%;
+    margin-top: 68px;
     grid-column-start: 2;
     text-align: justify;
   }
@@ -648,7 +660,7 @@
   .leftBorder {
     margin-top: 10%;
     margin-left: 10%;
-    border-left: #de0036 5px solid;
+    border-left: #bd152e 5px solid;
   }
 
   .leftBorder h3 {
@@ -670,7 +682,7 @@
 
   .leftBorder {
     text-align: center;
-    border-left: 4px solid #de0036;
+    border-left: 4px solid #bd152e;
     margin-left: 25%;
     height: auto;
   }
@@ -682,7 +694,7 @@
   .leftSide {
     width: 40%;
     height: 550px;
-    background-color: #de0036;
+    background-color: #bd152e;
     position: absolute;
     z-index: -5;
   }
@@ -702,7 +714,7 @@
   .interName h3 {
     text-align: start;
     padding: 5px;
-    color: #de0036;
+    color: #bd152e;
   }
 
   .interNameBold {
@@ -727,8 +739,9 @@
   }
 
   .beSystem {
-    background-color: #de0036;
+    background-color: #bd152e;
     padding: 1% 0 2% 0;
+    margin-top: 60px;
   }
 
   .beSystemHeader h5 {
@@ -741,7 +754,7 @@
   }
 
   .beSystem .beSystemHeaderh1 {
-    background-color: #de0036;
+    background-color: #bd152e;
     width: 32%;
     text-align: center;
     margin: 0 auto;
@@ -815,7 +828,7 @@
     width: 190px;
     margin: 0 auto;
     /* background-color: aqua; */
-    border-bottom: 4px #de0036 solid;
+    border-bottom: 4px #bd152e solid;
     margin-bottom: 50px;
   }
 
@@ -833,7 +846,7 @@
 
   .world {
     margin-top: 30px;
-    background-color: #de0036;
+    background-color: #bd152e;
   }
 
   .world h1 {
@@ -897,12 +910,12 @@
 
   .worldKW h1 {
     text-align: center;
-    color: #de0036;
+    color: #bd152e;
     font-size: 24px;
   }
 
   .worldwkDahinBorder {
-    border-bottom: 4px #de0036 solid;
+    border-bottom: 4px #bd152e solid;
     width: 250px;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -933,6 +946,10 @@
     column-gap: 10px;
   }
 
+  .worldKWDahinNumberSmall {
+    font-size: 16px !important;
+  }
+
   .worldwkDahinNumberZ h1 {
     font-size: 90px;
     text-align: center;
@@ -944,7 +961,7 @@
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    color: #de0036;
+    color: #bd152e;
     font-family: "Roboto", sans-serif;
   }
 
@@ -959,13 +976,13 @@
   }
 
   .evo h1 {
-    color: #de0036;
+    color: #bd152e;
     text-align: center;
     font-size: 24px;
   }
 
   .evoBorder {
-    border-bottom: 4px solid #de0036;
+    border-bottom: 4px solid #bd152e;
     width: 500px;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -993,7 +1010,7 @@
   }
 
   .whyLevelSurgaltFrame {
-    background-color: #de0036;
+    background-color: #bd152e;
     color: white;
     height: 100%;
     text-align: justify;
@@ -1033,13 +1050,13 @@
 
   .life h1 {
     text-align: center;
-    color: #de0036;
+    color: #bd152e;
     font-size: 24px;
     font-family: "Roboto", sans-serif;
   }
 
   .lifeBorder {
-    border-bottom: 4px solid #de0036;
+    border-bottom: 4px solid #bd152e;
     width: 300px;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -1104,7 +1121,7 @@
 
   .kwCultureBodySection {
     padding: 20px;
-    background-color: #de0036;
+    background-color: #bd152e;
     color: white;
     text-align: start;
 
@@ -1125,7 +1142,7 @@
 
   .kwCultureBodySection-white h3 {
     margin-bottom: 16px;
-    color: #de0036;
+    color: #bd152e;
     font-family: "Roboto", sans-serif;
   }
 
@@ -1140,7 +1157,7 @@
     width: 100%;
     padding-bottom: 30px;
     padding-top: 30px;
-    background-color: #de0036;
+    background-color: #bd152e;
   }
 
   .ajliinBair h1 {
@@ -1207,7 +1224,7 @@
   }
 
   .agentGridSectionBorder {
-    border-bottom: 4px solid #de0036;
+    border-bottom: 4px solid #bd152e;
     width: 75%;
   }
 
@@ -1270,7 +1287,7 @@
   .agentGraphicText h1 {
     font-family: "Roboto", sans-serif;
     font-size: 21px;
-    color: #de0036;
+    color: #bd152e;
   }
 
   .agentGraphicText p {
@@ -1300,7 +1317,7 @@
   }
 
   .agentWorldSurgaltText {
-    background-color: #de0036;
+    background-color: #bd152e;
     padding: 60px 60px;
     display: flex;
     justify-content: center;
@@ -1355,7 +1372,7 @@
   }
 
   .staffWorldSurgaltText {
-    background-color: #de0036;
+    background-color: #bd152e;
     padding: 80px 50px;
     display: flex;
     justify-content: center;
@@ -1388,7 +1405,7 @@
   }
 
   .agentBidenteiNegdehText {
-    background-color: #de0036;
+    background-color: #bd152e;
     padding: 50px 50px;
     display: flex;
     justify-content: center;
@@ -1421,7 +1438,7 @@
   .agentBidenteiNegdehTextPara input[type="button"] {
     background-color: white;
     border: none;
-    color: #de0036;
+    color: #bd152e;
     padding: 16px 32px;
     text-decoration: none;
     cursor: pointer;
@@ -1444,7 +1461,7 @@
   }
 
   .staffBidenteiNegdehText {
-    background-color: #de0036;
+    background-color: #bd152e;
     padding: 60px 60px;
     display: flex;
     justify-content: center;
@@ -1477,7 +1494,7 @@
   .staffBidenteiNegdehTextPara input[type="button"] {
     background-color: white;
     border: none;
-    color: #de0036;
+    color: #bd152e;
     padding: 16px 32px;
     text-decoration: none;
     cursor: pointer;
@@ -1509,12 +1526,12 @@
 
   .ajliinBairLeft span {
     font-weight: bold;
-    color: #de0036;
+    color: #bd152e;
   }
 
   .ajliinBairRight span {
     font-weight: bold;
-    color: #de0036;
+    color: #bd152e;
   }
 
   .ajliinBairLeft,
@@ -1627,7 +1644,7 @@
     height: 35px;
     text-align: center;
     border-radius: 100%;
-    background-color: #de0036;
+    background-color: #bd152e;
     margin-right: 10px;
     justify-content: space-evenly;
   }
@@ -1664,7 +1681,7 @@
 
   .blogLink a {
     text-decoration: none;
-    color: #de0036;
+    color: #bd152e;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 16px;
   }
@@ -1704,7 +1721,7 @@
   .blogSectionHighLight h1 {
     font-size: 18px;
     font-family: "Roboto Condensed", sans-serif;
-    color: #de0036;
+    color: #bd152e;
     font-weight: bold;
     font-style: italic;
   }
@@ -1841,6 +1858,12 @@
   }
 
   @media (max-width: 1296px) {
+    .interName h3 {
+      padding-left: 18px;
+    }
+    .interTitleTitle p {
+      padding-left: 18px;
+    }
     .Kwcontainer {
       width: 100%;
       overflow: hidden;
@@ -1999,10 +2022,11 @@
     .leftBorder {
       margin-top: 25%;
       width: 100%;
-      height: 40%;
+      height: 38px;
     }
 
     .authorBody {
+      margin-top: 15%;
       grid-column: 1;
       grid-row-start: 2;
     }
@@ -2161,7 +2185,7 @@
     }
 
     .agentImageSectionTextMobile {
-      background-color: #de0036;
+      background-color: #bd152e;
       padding: 10px;
     }
 
@@ -2186,7 +2210,7 @@
     }
 
     .agentGridSectionBorderMobile {
-      border-bottom: 4px solid #de0036;
+      border-bottom: 4px solid #bd152e;
       width: 40%;
       margin: 0 auto;
     }
@@ -2206,6 +2230,9 @@
     .author {
       margin-top: -8%;
       /* background-color: aqua; */
+    }
+    .worldKWDahinNumberSmall {
+      font-size: 30px !important;
     }
 
     .heroBanner img {
@@ -2234,7 +2261,7 @@
 
     .leftBorder {
       width: auto;
-      height: 100%;
+      height: 75%;
       margin: 0;
     }
 
@@ -2321,7 +2348,7 @@
     }
 
     .evo h1 {
-      color: #de0036;
+      color: #bd152e;
       text-align: center;
       font-size: 20px;
     }
@@ -2354,6 +2381,11 @@
     .beSystem .beSystemHeaderh1 {
       width: 40%;
       margin-bottom: -5%;
+    }
+    .beSystem {
+      background-color: #bd152e;
+      padding: 1% 0 2% 0;
+      margin-top: 30px;
     }
 
     .beSystemHeaderh1 h1 {

@@ -225,7 +225,7 @@ grid-column-start: 1; */
   }
 
   .agentGridSectionBorder {
-    border-bottom: 4px solid #de0036;
+    border-bottom: 4px solid #bd152e;
     width: 75%;
   }
 
@@ -288,7 +288,7 @@ grid-column-start: 1; */
   .agentGraphicText h1 {
     font-family: "Roboto", sans-serif;
     font-size: 21px;
-    color: #de0036;
+    color: #bd152e;
   }
 
   .agentGraphicText p {
@@ -318,7 +318,7 @@ grid-column-start: 1; */
   }
 
   .agentWorldSurgaltText {
-    background-color: #de0036;
+    background-color: #bd152e;
     padding: 60px 60px;
     display: flex;
     justify-content: center;
@@ -358,7 +358,7 @@ grid-column-start: 1; */
   }
 
   .agentBidenteiNegdehText {
-    background-color: #de0036;
+    background-color: #bd152e;
     padding: 50px 50px;
     display: flex;
     justify-content: center;
@@ -391,7 +391,7 @@ grid-column-start: 1; */
   .agentBidenteiNegdehTextPara input[type="button"] {
     background-color: white;
     border: none;
-    color: #de0036;
+    color: #bd152e;
     padding: 16px 32px;
     text-decoration: none;
     cursor: pointer;
@@ -550,7 +550,7 @@ grid-column-start: 1; */
     }
 
     .agentImageSectionTextMobile {
-      background-color: #de0036;
+      background-color: #bd152e;
       padding: 10px;
     }
 
@@ -575,7 +575,7 @@ grid-column-start: 1; */
     }
 
     .agentGridSectionBorderMobile {
-      border-bottom: 4px solid #de0036;
+      border-bottom: 4px solid #bd152e;
       width: 40%;
       margin: 0 auto;
     }

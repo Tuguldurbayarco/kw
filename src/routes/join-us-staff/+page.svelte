@@ -133,7 +133,7 @@ margin-bottom: 25px;"
 
   .borderBottom {
     height: 25px;
-    background-color: #de0036;
+    background-color: #bd152e;
     padding: 40px;
     z-index: -1;
   }
@@ -193,7 +193,7 @@ margin-bottom: 25px;"
   .leftBorder {
     margin-top: 10%;
     margin-left: 10%;
-    border-left: #de0036 5px solid;
+    border-left: #bd152e 5px solid;
   }
 
   .leftBorder h3 {
@@ -215,7 +215,7 @@ margin-bottom: 25px;"
 
   .leftBorder {
     text-align: center;
-    border-left: 4px solid #de0036;
+    border-left: 4px solid #bd152e;
     margin-left: 25%;
     height: auto;
   }
@@ -227,7 +227,7 @@ margin-bottom: 25px;"
   .leftSide {
     width: 40%;
     height: 550px;
-    background-color: #de0036;
+    background-color: #bd152e;
     position: absolute;
     z-index: -5;
   }
@@ -244,7 +244,7 @@ margin-bottom: 25px;"
   .interName h3 {
     text-align: start;
     padding: 5px;
-    color: #de0036;
+    color: #bd152e;
   }
 
   .interNameBold {
@@ -269,7 +269,7 @@ margin-bottom: 25px;"
   }
 
   .beSystem {
-    background-color: #de0036;
+    background-color: #bd152e;
     padding: 1% 0 2% 0;
   }
 
@@ -283,7 +283,7 @@ margin-bottom: 25px;"
   }
 
   .beSystem .beSystemHeaderh1 {
-    background-color: #de0036;
+    background-color: #bd152e;
     width: 32%;
     text-align: center;
     margin: 0 auto;
@@ -357,7 +357,7 @@ margin-bottom: 25px;"
     width: 190px;
     margin: 0 auto;
     /* background-color: aqua; */
-    border-bottom: 4px #de0036 solid;
+    border-bottom: 4px #bd152e solid;
     margin-bottom: 50px;
   }
 
@@ -375,7 +375,7 @@ margin-bottom: 25px;"
 
   .world {
     margin-top: 30px;
-    background-color: #de0036;
+    background-color: #bd152e;
   }
 
   .world h1 {
@@ -439,12 +439,12 @@ margin-bottom: 25px;"
 
   .worldKW h1 {
     text-align: center;
-    color: #de0036;
+    color: #bd152e;
     font-size: 24px;
   }
 
   .worldwkDahinBorder {
-    border-bottom: 4px #de0036 solid;
+    border-bottom: 4px #bd152e solid;
     width: 250px;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -485,7 +485,7 @@ margin-bottom: 25px;"
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    color: #de0036;
+    color: #bd152e;
   }
 
   .worldwkCountry {
@@ -499,13 +499,13 @@ margin-bottom: 25px;"
   }
 
   .evo h1 {
-    color: #de0036;
+    color: #bd152e;
     text-align: center;
     font-size: 24px;
   }
 
   .evoBorder {
-    border-bottom: 4px solid #de0036;
+    border-bottom: 4px solid #bd152e;
     width: 500px;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -533,7 +533,7 @@ margin-bottom: 25px;"
   }
 
   .whyLevelSurgaltFrame {
-    background-color: #de0036;
+    background-color: #bd152e;
     color: white;
     height: 100%;
     text-align: justify;
@@ -573,13 +573,13 @@ margin-bottom: 25px;"
 
   .life h1 {
     text-align: center;
-    color: #de0036;
+    color: #bd152e;
     font-size: 24px;
     font-family: "Roboto", sans-serif;
   }
 
   .lifeBorder {
-    border-bottom: 4px solid #de0036;
+    border-bottom: 4px solid #bd152e;
     width: 300px;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -644,7 +644,7 @@ margin-bottom: 25px;"
 
   .kwCultureBodySection {
     padding: 20px;
-    background-color: #de0036;
+    background-color: #bd152e;
     color: white;
     text-align: start;
 
@@ -665,7 +665,7 @@ margin-bottom: 25px;"
 
   .kwCultureBodySection-white h3 {
     margin-bottom: 16px;
-    color: #de0036;
+    color: #bd152e;
     font-family: "Roboto", sans-serif;
   }
 
@@ -680,7 +680,7 @@ margin-bottom: 25px;"
     width: 100%;
     padding-bottom: 30px;
     padding-top: 30px;
-    background-color: #de0036;
+    background-color: #bd152e;
   }
 
   .ajliinBair h1 {
@@ -747,7 +747,7 @@ margin-bottom: 25px;"
   }
 
   .agentGridSectionBorder {
-    border-bottom: 4px solid #de0036;
+    border-bottom: 4px solid #bd152e;
     width: 75%;
   }
 
@@ -810,7 +810,7 @@ margin-bottom: 25px;"
   .agentGraphicText h1 {
     font-family: "Roboto", sans-serif;
     font-size: 21px;
-    color: #de0036;
+    color: #bd152e;
   }
 
   .agentGraphicText p {
@@ -840,7 +840,7 @@ margin-bottom: 25px;"
   }
 
   .agentWorldSurgaltText {
-    background-color: #de0036;
+    background-color: #bd152e;
     padding: 60px 60px;
     display: flex;
     justify-content: center;
@@ -895,7 +895,7 @@ margin-bottom: 25px;"
   }
 
   .staffWorldSurgaltText {
-    background-color: #de0036;
+    background-color: #bd152e;
     padding: 80px 50px;
     display: flex;
     justify-content: center;
@@ -928,7 +928,7 @@ margin-bottom: 25px;"
   }
 
   .agentBidenteiNegdehText {
-    background-color: #de0036;
+    background-color: #bd152e;
     padding: 50px 50px;
     display: flex;
     justify-content: center;
@@ -961,7 +961,7 @@ margin-bottom: 25px;"
   .agentBidenteiNegdehTextPara input[type="button"] {
     background-color: white;
     border: none;
-    color: #de0036;
+    color: #bd152e;
     padding: 16px 32px;
     text-decoration: none;
     cursor: pointer;
@@ -984,7 +984,7 @@ margin-bottom: 25px;"
   }
 
   .staffBidenteiNegdehText {
-    background-color: #de0036;
+    background-color: #bd152e;
     padding: 60px 60px;
     display: flex;
     justify-content: center;
@@ -1017,7 +1017,7 @@ margin-bottom: 25px;"
   .staffBidenteiNegdehTextPara input[type="button"] {
     background-color: white;
     border: none;
-    color: #de0036;
+    color: #bd152e;
     padding: 16px 32px;
     text-decoration: none;
     cursor: pointer;
@@ -1049,12 +1049,12 @@ margin-bottom: 25px;"
 
   .ajliinBairLeft span {
     font-weight: bold;
-    color: #de0036;
+    color: #bd152e;
   }
 
   .ajliinBairRight span {
     font-weight: bold;
-    color: #de0036;
+    color: #bd152e;
   }
 
   .ajliinBairLeft,
@@ -1167,7 +1167,7 @@ margin-bottom: 25px;"
     height: 35px;
     text-align: center;
     border-radius: 100%;
-    background-color: #de0036;
+    background-color: #bd152e;
     margin-right: 10px;
     justify-content: space-evenly;
   }
@@ -1204,7 +1204,7 @@ margin-bottom: 25px;"
 
   .blogLink a {
     text-decoration: none;
-    color: #de0036;
+    color: #bd152e;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 16px;
   }
@@ -1244,7 +1244,7 @@ margin-bottom: 25px;"
   .blogSectionHighLight h1 {
     font-size: 18px;
     font-family: "Roboto Condensed", sans-serif;
-    color: #de0036;
+    color: #bd152e;
     font-weight: bold;
     font-style: italic;
   }
@@ -1679,7 +1679,7 @@ margin-bottom: 25px;"
     }
 
     .agentImageSectionTextMobile {
-      background-color: #de0036;
+      background-color: #bd152e;
       padding: 10px;
     }
 
@@ -1704,7 +1704,7 @@ margin-bottom: 25px;"
     }
 
     .agentGridSectionBorderMobile {
-      border-bottom: 4px solid #de0036;
+      border-bottom: 4px solid #bd152e;
       width: 40%;
       margin: 0 auto;
     }
@@ -1830,7 +1830,7 @@ margin-bottom: 25px;"
     }
 
     .evo h1 {
-      color: #de0036;
+      color: #bd152e;
       text-align: center;
       font-size: 20px;
     }
