@@ -444,11 +444,11 @@ grid-column-start: 1; */
     }
 
     .agentWorldSurgaltText {
-      grid-column: 2/9;
+      grid-column: 2/10;
     }
 
     .agentBidenteiNegdehText {
-      grid-column: 13/20;
+      grid-column: 11/20;
     }
   }
 
