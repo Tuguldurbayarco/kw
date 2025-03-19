@@ -10,7 +10,9 @@
         class="agentSection"
       >
         <div class="agentImageSectionText">
-          <h1>
+          <h1
+            class="max-[1500px]:pl-6 max-[1300px]:pl-[172px] max-[1200px]:pl-9"
+          >
             {$_("joinUsAgent.commision")}
           </h1>
         </div>
