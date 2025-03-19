@@ -7,7 +7,7 @@
   let currentLang = "";
   locale.subscribe((value) => (currentLang = value ?? ""));
 
-  // 7 15
+  // 7 15 -> 8 45
 </script>
 
 <section class="heroBanner">
