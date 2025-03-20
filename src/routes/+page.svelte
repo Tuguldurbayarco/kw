@@ -558,8 +558,10 @@
           src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwKid.webp"
           alt=""
         />
-        <div class="kwCultureBodySection">
-          <h3 style="font-weight: bold; font-size: 18px;">RED DAY</h3>
+        <div class="kwCultureBodySection min-[1100px]:content-center">
+          <h3 style="font-weight: bold; font-size: 18px;">
+            {$_("aboutUs.RedDay.title")}
+          </h3>
           <div class="mb-4.5">
             <p>
               {$_("aboutUs.RedDay.text")}
@@ -1127,7 +1129,6 @@
     background-color: #bd152e;
     color: white;
     text-align: start;
-    align-content: center;
     text-align: justify;
   }
 

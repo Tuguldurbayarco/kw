@@ -98,19 +98,19 @@
     </div>
     <div class="flex items-center">
       <ul class="header-menu-wide">
-        <li class="whitespace-nowrap font-bold">
+        <li class="whitespace-nowrap">
           <a href="/kw/"> {$_("layout.aboutUs")}</a>
         </li>
-        <li class="whitespace-nowrap font-bold">
+        <li class="whitespace-nowrap">
           <a href="/kw/join-us-agent"> {$_("layout.joinUsAgent")}</a>
         </li>
-        <li class="whitespace-nowrap font-bold">
+        <li class="whitespace-nowrap">
           <a href="/kw/join-us-staff">{$_("layout.joinUsAsATeamMember")}</a>
         </li>
         <!-- <li>
         <a href="/kw/#">Блог</a>
       </li> -->
-        <li class="whitespace-nowrap font-bold">
+        <li class="whitespace-nowrap">
           <a href="https://www.kw.com/mn/search" target="_blank"
             >{$_("layout.findProperty")}</a
           >
