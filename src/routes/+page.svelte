@@ -3,6 +3,7 @@
   import { _ } from "svelte-i18n";
   import { locale } from "svelte-i18n";
   import timelineWeb from "$lib/svg/timeline_web.svg";
+  import revInRealState from "$lib/svg/rev_in_real_state.svg";
 
   let currentLang = "";
   locale.subscribe((value) => (currentLang = value ?? ""));
@@ -426,6 +427,11 @@
       <!--     <div class="evoBorder"></div> -->
       <img
         style="width: 100%;"
+        src={revInRealState}
+        alt="revolution in real state"
+      />
+      <!-- <img
+        style="width: 100%;"
         class="evoDesktop"
         src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/KW_desktop.svg"
         alt=""
@@ -441,7 +447,7 @@
         class="evoMobile"
         src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/financePhoneEvo.svg"
         alt=""
-      />
+      /> -->
     </div>
   </section>
 </div>
