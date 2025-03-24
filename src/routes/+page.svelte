@@ -425,29 +425,33 @@
         {$_("aboutUs.real_estate_revolution")}
       </h1>
       <!--     <div class="evoBorder"></div> -->
-      <img
-        style="width: 100%;"
-        src={revInRealState}
-        alt="revolution in real state"
-      />
-      <!-- <img
-        style="width: 100%;"
-        class="evoDesktop"
-        src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/KW_desktop.svg"
-        alt=""
-      />
-      <img
-        style="width: 100%;"
-        class="evoTablet"
-        src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/financeTabletEvo.svg"
-        alt=""
-      />
-      <img
-        style="width: 100%;"
-        class="evoMobile"
-        src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/financePhoneEvo.svg"
-        alt=""
-      /> -->
+      {#if currentLang === "en-US"}
+        <img
+          style="width: 100%;"
+          src={revInRealState}
+          alt="revolution in real state"
+        />
+      {/if}
+      {#if currentLang !== "en-US"}
+        <img
+          style="width: 100%;"
+          class="evoDesktop"
+          src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/KW_desktop.svg"
+          alt=""
+        />
+        <img
+          style="width: 100%;"
+          class="evoTablet"
+          src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/financeTabletEvo.svg"
+          alt=""
+        />
+        <img
+          style="width: 100%;"
+          class="evoMobile"
+          src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/financePhoneEvo.svg"
+          alt=""
+        />
+      {/if}
     </div>
   </section>
 </div>
