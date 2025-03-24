@@ -4,6 +4,7 @@
   import { locale } from "svelte-i18n";
   import timelineWeb from "$lib/svg/timeline_web.svg";
   import revInRealState from "$lib/svg/rev_in_real_state.svg";
+  import growthGraph from "$lib/svg/growth-share.svg";
 
   let currentLang = "";
   locale.subscribe((value) => (currentLang = value ?? ""));
@@ -404,15 +405,16 @@
     </div>
     <div class="Kwcontainer">
       <div class="worldwkCountry">
-        ● Albania ● Argentina ● Aruba ● Belgium ● Belize ● Bermuda ● Cambodia ●
-        Canada ● Chile ● Colombia ● Costa Rica ● Cyprus ● Czech Republic ●
-        Dominican Republic ● Dubai, UAE ● France ● Greater Shanghai, China ●
-        Greece ● Honduras ● Indonesia ● Ireland ● Israel ● Italy ● Jamaica ●
-        Japan ● Luxembourg ● Malaysia ● Mexico ● Monaco ● Mongolia ● Morocco ●
-        Nicaragua ● Northern Cyprus ● Panama ● Paraguay ● Peru ● Philippines ●
-        Poland ● Portugal ● Puerto Rico ● Romania ● Serbia ● Slovenia ● Southern
-        Africa ● Spain ● Thailand ● Trinidad and Tobago ● Turkey ● Turks and
-        Caicos ● United Kingdom ● Uruguay ● Vietnam
+        ● Albania ● Argentina ● Aruba ● Bahamas ● Belgium ● Belize ● Bermuda ●
+        Bolivia ● Bonaire ● Cambodia ● Canada ● Chile ● Colombia ● Costa Rica ●
+        Curacao ● Cyprus ● Czech Republic ● Dominican Republic ● Dubai, UAE ●
+        France ● Germany ● Greater Shanghai, China ● Greece ● Guatemala ● Guyana
+        ● Honduras ● Indonesia ● Ireland ● Israel ● Italy ● Jamaica ● Japan ●
+        Luxembourg ● Malaysia ● Mexico ● Monaco ● Mongolia ● Morocco ● Nicaragua
+        ● Northern Cyprus ● Panama ● Paraguay ● Peru ● Philippines ● Poland ●
+        Portugal ● Puerto Rico ● Romania ● Sao Paulo ● Serbia ● Slovenia ● Sint
+        Maarten ● Southern Africa ● Spain ● Thailand ● Trinidad and Tobago ●
+        Turkey ● Turks and Caicos ● United Kingdom ● Uruguay ● Vietnam
       </div>
     </div>
   </div>
@@ -500,11 +502,7 @@
       </h1>
       <!--  <div class="lifeBorder"></div> -->
       <div class="lifeBaylag">
-        <img
-          class="kwlifeGraphicsDesktop"
-          src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/graphics.svg"
-          alt=""
-        />
+        <img class="kwlifeGraphicsDesktop" src={growthGraph} alt="" />
         <div class="lifeBayGap">
           <div class="lifeBaylagP lifeBaylagP-top">
             <h3
@@ -516,11 +514,7 @@
               {$_("aboutUs.PassiveIncome.CultureOfSharing.text")}
             </p>
           </div>
-          <img
-            class="kwlifeGraphicsMobile"
-            src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/kwgraphics.webp"
-            alt=""
-          />
+          <img class="kwlifeGraphicsMobile" src={growthGraph} alt="" />
           <div class="lifeBaylagP lifeBaylagP-bottom">
             <h3
               style="font-weight: bold; font-size: 18px; text-align: start; color: black;"
@@ -1080,7 +1074,7 @@
     grid-column-gap: 20px;
   }
   .lifeBayGap {
-    padding-top: 48px;
+    padding-top: 92px;
   }
 
   .lifeBaylagP-top h3 {
