@@ -1074,7 +1074,7 @@
     grid-column-gap: 20px;
   }
   .lifeBayGap {
-    padding-top: 92px;
+    padding-top: 80px;
   }
 
   .lifeBaylagP-top h3 {
