@@ -4,6 +4,7 @@
   import { locale } from "svelte-i18n";
   import timelineWeb from "$lib/svg/timeline_web.svg";
   import revInRealState from "$lib/svg/rev_in_real_state.svg";
+  import revInRealStateMn from "$lib/svg/rev_in_real_state_mn.svg";
   import growthGraph from "$lib/svg/growth-share.svg";
 
   let currentLang = "";
@@ -438,7 +439,7 @@
         <img
           style="width: 100%;"
           class="evoDesktop"
-          src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/KW_desktop.svg"
+          src={revInRealStateMn}
           alt=""
         />
         <img
