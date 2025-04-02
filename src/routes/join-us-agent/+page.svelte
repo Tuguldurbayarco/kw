@@ -23,17 +23,17 @@
             <div class="agentGridSection">
               <h1>{$_("joinUsAgent.firstYear")}</h1>
               <div class="agentGridSectionBorder"></div>
-              <h1>51,200,000₮</h1>
+              <h1>64,800,000₮</h1>
             </div>
             <div class="agentGridSection">
               <h1>{$_("joinUsAgent.secondYear")}</h1>
               <div class="agentGridSectionBorder"></div>
-              <h1>72,850,000₮</h1>
+              <h1>108,000,000₮</h1>
             </div>
             <div class="agentGridSection">
               <h1>{$_("joinUsAgent.thirdYear")}</h1>
               <div class="agentGridSectionBorder"></div>
-              <h1>105,770,000₮</h1>
+              <h1>151,200,000₮</h1>
             </div>
             <div class="agentGridSectionShimtgel">
               <h1>{$_("joinUsAgent.saleCommision")}</h1>
