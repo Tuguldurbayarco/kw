@@ -21,17 +21,6 @@
             <p>
               {$_("joinUsAsATeamMember.joinUsText")}
             </p>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfS261E2XD8PjUKOf6FbDxXUX0o-JOVNWEviPYYf9bvlApvCw/viewform?fbclid=IwAR3PhokzW9X7X2qjr2E9m6heHPFutrNnWLipgcJxvsEmvdA-mR1hW5hlegs"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="joinUsAsATeamMember"
-            >
-              <input
-                type="button"
-                value={$_("joinUsAsATeamMember.joinUsButton")}
-              />
-            </a>
           </div>
         </div>
         <div
@@ -115,39 +104,39 @@ margin-bottom: 25px;"
     text-align: justify;
     font-weight: 400;
   } -->
-  <div class="agentBidenteiNegdehText">
-    <div class="agentBidenteiNegdehTextPara">
-      <h1 class="pb-4">{$_("joinUsAgent.joinUs.title")}</h1>
-      <p class="text-white">
-        {$_("joinUsAgent.joinUs.text")}
-      </p>
-      <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSfbJNo3AO_8e6ZCw1xfG0OS0k8zFMbfNHLAU3uBoalEVk3nbg/viewform"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="fill the anket"
-      >
-        <input type="button" value={$_("joinUsAgent.sendRequest")} />
-      </a>
-    </div>
+  <div class="actionButtons">
+    <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLSfbJNo3AO_8e6ZCw1xfG0OS0k8zFMbfNHLAU3uBoalEVk3nbg/viewform"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="fill the anket"
+      class="sendReqButton"
+    >
+      <input type="button" value={$_("joinUsAgent.sendRequest")} />
+    </a>
+    <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLSfS261E2XD8PjUKOf6FbDxXUX0o-JOVNWEviPYYf9bvlApvCw/viewform?fbclid=IwAR3PhokzW9X7X2qjr2E9m6heHPFutrNnWLipgcJxvsEmvdA-mR1hW5hlegs"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="joinUsAsATeamMember"
+      class="sendReqButton"
+    >
+      <input type="button" value={$_("joinUsAsATeamMember.joinUsButton")} />
+    </a>
   </div>
 </div>
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap");
-
-  .agentBidenteiNegdehText {
+  .actionButtons {
     background-color: #bd152e;
-    padding: 50px 50px;
+    margin-bottom: 60px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    isolation: isolate;
-    z-index: 5;
-    grid-column: 11/20;
+    padding: 20px 50px;
+    gap: 30px;
   }
-
-  .agentBidenteiNegdehTextPara input[type="button"] {
+  .sendReqButton input[type="button"] {
     background-color: white;
     border: none;
     color: #bd152e;
@@ -157,7 +146,6 @@ margin-bottom: 25px;"
     font-size: 16px;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: bold;
-    margin-top: 30px;
   }
 
   .agentBidenteiNegdehTextPara h1 {
@@ -288,10 +276,6 @@ margin-bottom: 25px;"
     font-family: "Roboto Condensed", sans-serif;
     font-weight: bold;
     margin-top: 30px;
-  }
-
-  .ajil {
-    margin-bottom: 60px;
   }
 
   .ajliinBairGrid {
