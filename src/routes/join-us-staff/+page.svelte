@@ -80,16 +80,13 @@ margin-bottom: 25px; "
           style="margin-bottom: 0px;"
         >
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfS261E2XD8PjUKOf6FbDxXUX0o-JOVNWEviPYYf9bvlApvCw/viewform?fbclid=IwAR3PhokzW9X7X2qjr2E9m6heHPFutrNnWLipgcJxvsEmvdA-mR1hW5hlegs"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfbJNo3AO_8e6ZCw1xfG0OS0k8zFMbfNHLAU3uBoalEVk3nbg/viewform"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="joinUsAsATeamMember"
+            aria-label="fill the anket"
             class="sendReqButton"
           >
-            <input
-              type="button"
-              value={$_("joinUsAsATeamMember.joinUsButton")}
-            />
+            <input type="button" value={$_("joinUsAgent.sendRequest")} />
           </a>
         </div>
         <div class="ajliinBairRight">
@@ -132,13 +129,13 @@ margin-bottom: 25px;"
       <input type="button" value={$_("joinUsAgent.sendRequest")} />
     </a>
     <a
-      href="https://docs.google.com/forms/d/e/1FAIpQLSfS261E2XD8PjUKOf6FbDxXUX0o-JOVNWEviPYYf9bvlApvCw/viewform?fbclid=IwAR3PhokzW9X7X2qjr2E9m6heHPFutrNnWLipgcJxvsEmvdA-mR1hW5hlegs"
+      href="https://docs.google.com/forms/d/e/1FAIpQLSfbJNo3AO_8e6ZCw1xfG0OS0k8zFMbfNHLAU3uBoalEVk3nbg/viewform"
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="joinUsAsATeamMember"
+      aria-label="fill the anket"
       class="sendReqButton max-[1300px]:hidden"
     >
-      <input type="button" value={$_("joinUsAsATeamMember.joinUsButton")} />
+      <input type="button" value={$_("joinUsAgent.sendRequest")} />
     </a>
   </div>
 </div>
