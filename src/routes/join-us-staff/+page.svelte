@@ -75,6 +75,23 @@ margin-bottom: 25px; "
             {@html $_("joinUsAsATeamMember.jobExecutive.description")}
           </div>
         </div>
+        <div
+          class="actionButtons grid min-[1300px]:hidden"
+          style="margin-bottom: 0px;"
+        >
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfS261E2XD8PjUKOf6FbDxXUX0o-JOVNWEviPYYf9bvlApvCw/viewform?fbclid=IwAR3PhokzW9X7X2qjr2E9m6heHPFutrNnWLipgcJxvsEmvdA-mR1hW5hlegs"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="joinUsAsATeamMember"
+            class="sendReqButton"
+          >
+            <input
+              type="button"
+              value={$_("joinUsAsATeamMember.joinUsButton")}
+            />
+          </a>
+        </div>
         <div class="ajliinBairRight">
           <h3
             style="font-weight: bold; text-align: left; color: black; margin-top: 30px;
@@ -104,7 +121,7 @@ margin-bottom: 25px;"
     text-align: justify;
     font-weight: 400;
   } -->
-  <div class="actionButtons">
+  <div class="actionButtons grid">
     <a
       href="https://docs.google.com/forms/d/e/1FAIpQLSfbJNo3AO_8e6ZCw1xfG0OS0k8zFMbfNHLAU3uBoalEVk3nbg/viewform"
       target="_blank"
@@ -119,7 +136,7 @@ margin-bottom: 25px;"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="joinUsAsATeamMember"
-      class="sendReqButton"
+      class="sendReqButton max-[1300px]:hidden"
     >
       <input type="button" value={$_("joinUsAsATeamMember.joinUsButton")} />
     </a>
@@ -131,10 +148,8 @@ margin-bottom: 25px;"
   .actionButtons {
     background-color: #bd152e;
     margin-bottom: 60px;
-    display: flex;
-    align-items: center;
-    padding: 20px 50px;
-    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding-block: 20px;
   }
   .sendReqButton input[type="button"] {
     background-color: white;
@@ -146,6 +161,7 @@ margin-bottom: 25px;"
     font-size: 16px;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: bold;
+    margin-left: 50px;
   }
 
   .agentBidenteiNegdehTextPara h1 {
