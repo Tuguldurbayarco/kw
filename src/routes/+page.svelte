@@ -113,7 +113,9 @@
         <h1>WI4C2TES</h1>
       </div>
       <div class="beSystemFullBorder">
-        <h5 style="font-weight:400;">{$_("aboutUs.beliefSystem.title")}</h5>
+        <h5 style="font-weight:400;" class="pr-2 md:pr-10">
+          {$_("aboutUs.beliefSystem.title")}
+        </h5>
         <div class="beSystemGrid">
           <div class="beSystemName">
             <h6>{$_("aboutUs.beliefSystem.Win-Win.title")}:</h6>
@@ -464,7 +466,10 @@
     <div class="Kwcontainer">
       <div class="whyLevelSurgalt">
         <div class="whyLevelSurgaltFrame">
-          <h2 class="globalBold" style="color:white; margin-bottom: 18px;">
+          <h2
+            class="globalBold uppercase"
+            style="color:white; margin-bottom: 18px;"
+          >
             {$_("aboutUs.WorldStandartTraining.title")}
           </h2>
           <p>
@@ -482,7 +487,10 @@
         />
 
         <div class="whyLevelSurgaltFrame whyLevelSurgaltFrameThree">
-          <h2 style="color:white; font-weight: bold; margin-bottom: 18px;">
+          <h2
+            style="color:white; font-weight: bold; margin-bottom: 18px;"
+            class="uppercase"
+          >
             {$_("aboutUs.BestTechnology.title")}
           </h2>
           <!-- <h4 style="font-weight: bold"> KW ТЕХНОЛОГИЙН КОМПАНИ БОЛОХ НЬ </h4> -->
@@ -539,7 +547,7 @@
     <div class="Kwcontainer">
       <div class="kwCultureBody">
         <div class="kwCultureBodySection">
-          <h3 style="font-weight: bold; font-size: 18px;">
+          <h3 style="font-weight: bold; font-size: 18px;" class="uppercase">
             {$_("aboutUs.CultureOfGiving.title")}
           </h3>
           <div>
@@ -549,7 +557,7 @@
           </div>
         </div>
         <div class="kwCultureBodySection-white">
-          <h3 style="font-weight: bold; font-size: 18px;">
+          <h3 style="font-weight: bold; font-size: 18px;" class="uppercase">
             {$_("aboutUs.KWCare.title")}
           </h3>
           <div style="text-align: justify;">
@@ -564,7 +572,7 @@
           alt=""
         />
         <div class="kwCultureBodySection min-[1100px]:content-center">
-          <h3 style="font-weight: bold; font-size: 18px;">
+          <h3 style="font-weight: bold; font-size: 18px;" class="uppercase">
             {$_("aboutUs.RedDay.title")}
           </h3>
           <div class="mb-4.5">
@@ -572,7 +580,7 @@
               {$_("aboutUs.RedDay.text")}
             </p>
           </div>
-          <h3 style="font-weight: bold; font-size: 18px;">
+          <h3 style="font-weight: bold; font-size: 18px;" class="uppercase">
             {$_("aboutUs.KWKidsCan.title")}
           </h3>
           <div>

@@ -11,12 +11,14 @@
       >
         <div class="agentImageSectionText">
           <h1
-            class="max-[1500px]:pl-6 max-[1300px]:pl-[172px] max-[1200px]:pl-9"
+            class="max-[1500px]:pl-6 max-[1300px]:pl-[172px] max-[1200px]:pl-9 pb-0 min-[880px]:pb-[30px] min-[1300px]:pb-0 min-[1580px]:pb-[30px] min-[1580px]:pb-[20px] min-[1720px]:pb-0"
           >
             {$_("joinUsAgent.commision")}
           </h1>
         </div>
-        <div class="agentFlex">
+        <div
+          class="agentFlex pb-5 min-[1580px]:pb-[130px] min-[1620px]:pb-[120px] min-[1720px]:pb-18 min-[1580px]:text-white"
+        >
           <div class="agentGrid">
             <div class="agentGridSection">
               <h1>{$_("joinUsAgent.firstYear")}</h1>
@@ -175,7 +177,7 @@ margin: 0 auto;
     min-height: 820px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right center;
+    background-position: right top;
     position: relative;
     display: grid;
     grid-template-columns: 0.6fr 0.4fr;
@@ -314,7 +316,7 @@ grid-column-start: 1; */
     min-height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     grid-row: 1/1;
     grid-column: 1/21;
     margin-bottom: 26px;
@@ -325,7 +327,6 @@ grid-column-start: 1; */
     padding: 60px 60px;
     display: flex;
     justify-content: center;
-    align-items: center;
     isolation: isolate;
     z-index: 5;
     grid-row: 2/2;
@@ -385,7 +386,7 @@ grid-column-start: 1; */
     min-height: 710px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     position: relative;
   }
 

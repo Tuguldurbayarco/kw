@@ -108,10 +108,64 @@ margin-bottom: 25px;"
       </div>
     </div>
   </section>
+  <!-- .agentWorldSurgaltTextPara p {
+    font-size: 16px;
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: justify;
+    font-weight: 400;
+  } -->
+  <div class="agentBidenteiNegdehText">
+    <div class="agentBidenteiNegdehTextPara">
+      <h1 class="pb-4">{$_("joinUsAgent.joinUs.title")}</h1>
+      <p class="text-white">
+        {$_("joinUsAgent.joinUs.text")}
+      </p>
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSfbJNo3AO_8e6ZCw1xfG0OS0k8zFMbfNHLAU3uBoalEVk3nbg/viewform"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="fill the anket"
+      >
+        <input type="button" value={$_("joinUsAgent.sendRequest")} />
+      </a>
+    </div>
+  </div>
 </div>
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap");
+
+  .agentBidenteiNegdehText {
+    background-color: #bd152e;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    isolation: isolate;
+    z-index: 5;
+    grid-column: 11/20;
+  }
+
+  .agentBidenteiNegdehTextPara input[type="button"] {
+    background-color: white;
+    border: none;
+    color: #bd152e;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+
+  .agentBidenteiNegdehTextPara h1 {
+    color: white;
+    font-size: 21px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+  }
 
   .KwcontainerOther {
     width: 100%;
@@ -162,10 +216,9 @@ margin-bottom: 25px;"
 
   .staffWorldSurgaltText {
     background-color: #bd152e;
-    padding: 80px 30px;
+    padding: 60px 30px;
     display: flex;
     justify-content: center;
-    align-items: center;
     isolation: isolate;
     z-index: 5;
     grid-row: 2/2;
