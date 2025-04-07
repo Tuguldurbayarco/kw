@@ -96,7 +96,7 @@
         <img class="logo-style" src={kwLogo} alt="" />
       </a>
     </div>
-    <div class="flex items-center">
+    <div class="flex items-center w-full justify-end max-[1281px]:mr-7">
       <ul class="header-menu-wide">
         <li class="whitespace-nowrap">
           <a href="/kw/"> {$_("layout.aboutUs")}</a>
@@ -116,7 +116,7 @@
           >
         </li>
       </ul>
-      <div class="scale-90 absolute right-2.5 md:scale-none xl:static xl:ml-4">
+      <div class="scale-90 md:scale-none xl:static xl:ml-4">
         <Select
           {options}
           bind:value={selectedValue}
