@@ -120,7 +120,10 @@
       "title": "The happiest place to work for",
       "text": "Keller Williams has been named one of CareerBliss.com’s as “The happiest place to work for” every year since 2018."
     },
-    "joinUsText": "We invite you to join us to be part of the leadership team to build professional real estate agents and make a difference in Mongolia's real estate sector.",
+    "joinUsText": {
+      "title": "KW where entrepreneurs thrive",
+      "text": "We invite you to join us to be part of the leadership team to build professional real estate agents and make a difference in Mongolia's real estate sector."
+    },
     "joinUsButton": "Join us",
     "jobName": "Job Title",
     "jobResponsibilities": "Key Responsibilities",

@@ -18,8 +18,11 @@
         </div>
         <div class="staffBidenteiNegdehText">
           <div class="staffBidenteiNegdehTextPara">
+            <h1 style="font-weight: bold;" class="pb-4">
+              {$_("joinUsAsATeamMember.joinUsText.title")}
+            </h1>
             <p>
-              {$_("joinUsAsATeamMember.joinUsText")}
+              {$_("joinUsAsATeamMember.joinUsText.text")}
             </p>
           </div>
         </div>
@@ -264,6 +267,13 @@ margin-bottom: 25px;"
     font-size: 16px;
     font-family: "Roboto Condensed", sans-serif;
     text-align: justify;
+    font-weight: 400;
+  }
+
+  .staffBidenteiNegdehTextPara h1 {
+    color: white;
+    font-size: 21px;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
   }
 

@@ -362,7 +362,7 @@ grid-column-start: 1; */
 
   .agentBidenteiNegdehText {
     background-color: #bd152e;
-    padding: 50px 50px;
+    padding: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
