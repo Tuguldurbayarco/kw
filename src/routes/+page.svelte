@@ -113,7 +113,7 @@
         <h1>WI4C2TES</h1>
       </div>
       <div class="beSystemFullBorder">
-        <h5 style="font-weight:400;" class="pr-2 md:pr-10">
+        <h5 style="font-weight:400;" class="pr-[20px] md:pr-[52px]">
           {$_("aboutUs.beliefSystem.title")}
         </h5>
         <div class="beSystemGrid">
@@ -468,7 +468,7 @@
         <div class="whyLevelSurgaltFrame">
           <h2
             class="globalBold uppercase"
-            style="color:white; margin-bottom: 18px;"
+            style="color:white; margin-bottom: 18px; text-align:left"
           >
             {$_("aboutUs.WorldStandartTraining.title")}
           </h2>
@@ -515,7 +515,8 @@
         <div class="lifeBayGap">
           <div class="lifeBaylagP lifeBaylagP-top">
             <h3
-              style="color: #bd152e; font-size: 18px; text-align: start; font-weight:bold; "
+              style="color: #bd152e; font-size: 18px; text-align: start; font-weight:bold;"
+              class="uppercase"
             >
               {$_("aboutUs.PassiveIncome.CultureOfSharing.title")}
             </h3>
@@ -528,7 +529,7 @@
             <h3
               style="font-weight: bold; font-size: 18px; text-align: start; color: black;"
             >
-              <span style="color: #bd152e; font-size: 18px;">
+              <span style="color: #bd152e; font-size: 18px;" class="uppercase">
                 {$_("aboutUs.PassiveIncome.OverBillionShared.title")}</span
               >
             </h3>
