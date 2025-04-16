@@ -177,7 +177,7 @@
           /></svg
         >
         <a
-          href="https://www.youtube.com/@kellerwilliamsmongolia488"
+          href="https://www.youtube.com/@kellerwilliamsmongolia5364"
           aria-label="Our youtube page"
           target="_blank"
         >
@@ -235,13 +235,17 @@
     <div>
       <div class="font-bold mb-2.5 text-[#636267]">More about KW</div>
       <div class="mb-0.5">
-        <a href="https://www.kw.com">www.kw.com</a>
+        <a href="https://www.kw.com" target="_blank">www.kw.com</a>
       </div>
       <div class="mb-0.5">
-        <a href="https://www.kwworldwide.com">www.kwworldwide.com</a>
+        <a href="https://www.kwworldwide.com" target="_blank"
+          >www.kwworldwide.com</a
+        >
       </div>
       <div>
-        <a href="https://www.outfrontkw.com">www.outfrontkw.com</a>
+        <a href="https://www.outfront.kw.com" target="_blank"
+          >www.outfront.kw.com</a
+        >
       </div>
     </div>
   </div>
