@@ -221,13 +221,17 @@
     <div>
       <div class="font-bold mb-2.5 text-[#636267]">More about KW</div>
       <div class="mb-0.5">
-        <a href="www.kw.com">www.kw.com</a>
+        <a href="https://www.kw.com" target="_blank">www.kw.com</a>
       </div>
       <div class="mb-0.5">
-        <a href="www.kwworldwide.com">www.kwworldwide.com</a>
+        <a href="https://www.kwworldwide.com" target="_blank"
+          >www.kwworldwide.com</a
+        >
       </div>
       <div>
-        <a href="www.outfrontkw.com">www.outfrontkw.com</a>
+        <a href="https://www.outfrontkw.com" target="_blank"
+          >www.outfrontkw.com</a
+        >
       </div>
     </div>
   </div>
