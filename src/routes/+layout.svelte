@@ -243,9 +243,7 @@
         >
       </div>
       <div>
-        <a href="https://www.outfront.kw.com" target="_blank"
-          >www.outfront.kw.com</a
-        >
+        <a href="https://outfront.kw.com" target="_blank">outfront.kw.com</a>
       </div>
     </div>
   </div>
