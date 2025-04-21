@@ -432,14 +432,14 @@
       <!--     <div class="evoBorder"></div> -->
       {#if currentLang === "en-US"}
         <img
-          style="width: 100%;"
+          style="width: 1060px; justify-self: center;"
           src={revInRealState}
           alt="revolution in real state"
         />
       {/if}
       {#if currentLang !== "en-US"}
         <img
-          style="width: 100%;"
+          style="width: 1060px; justify-self: center;"
           class="evoDesktop"
           src={revInRealStateMn}
           alt=""
