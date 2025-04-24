@@ -6,6 +6,7 @@
   import revInRealState from "$lib/svg/rev_in_real_state.svg";
   import revInRealStateMn from "$lib/svg/rev_in_real_state_mn.svg";
   import growthGraph from "$lib/svg/growth-share.svg";
+  import kwRedLogo from "$lib/images/kw-red-logo.jpeg";
 
   let currentLang = "";
   locale.subscribe((value) => (currentLang = value ?? ""));
@@ -422,22 +423,121 @@
     </div>
   </div>
 </section>
-
 <div>
   <section class="evo">
     <div class="Kwcontainer">
-      <h1 class="globalBold" style="margin-bottom: 30px;">
+      <h1 class="globalBold" style="margin-bottom: 60px;">
         {$_("aboutUs.real_estate_revolution")}
       </h1>
       <!--     <div class="evoBorder"></div> -->
-      {#if currentLang === "en-US"}
+      <div
+        class="w-[1060px] h-[600px] bg-[#d9d9d9] justify-self-center relative"
+      >
+        <div class="h-[25%] w-full absolute top-[-4%] flex justify-center z-10">
+          <img class="z-10" src={kwRedLogo} alt="kwLogo" />
+        </div>
+        <div class="w-full h-full relative overflow-hidden">
+          <div
+            class="h-full pt-[154px] pb-[64px] flex justify-even gap-[36px] px-[36px] robotoCondensedFont"
+          >
+            <div class="w-1/3 flex flex-col gap-[22px]">
+              <div class="font-bold text-center">
+                {$_("aboutUs.real_estate_revolution_text.dependent")}
+              </div>
+              <div>
+                <ul class="list-disc list-outside space-y-2 pl-6">
+                  <li>
+                    {$_("aboutUs.real_estate_revolution_text.dep_1")}
+                  </li>
+                  <li>{$_("aboutUs.real_estate_revolution_text.dep_2")}</li>
+                  <li>{$_("aboutUs.real_estate_revolution_text.dep_3")}</li>
+                  <li>{$_("aboutUs.real_estate_revolution_text.dep_4")}</li>
+                  <li>{$_("aboutUs.real_estate_revolution_text.dep_5")}</li>
+                  <li>{$_("aboutUs.real_estate_revolution_text.dep_6")}</li>
+                  {#if currentLang === "en-US"}
+                    <li>{$_("aboutUs.real_estate_revolution_text.dep_7")}</li>
+                  {/if}
+                </ul>
+              </div>
+              <div class="font-bold text-center">
+                {$_("aboutUs.real_estate_revolution_text.low_risk_low_take")}
+              </div>
+            </div>
+            <div class="w-1/3 flex flex-col gap-[22px]">
+              <div class="font-bold text-center">
+                {$_("aboutUs.real_estate_revolution_text.interdependent")}
+              </div>
+              <div>
+                <ul class="list-disc list-outside space-y-2 pl-6">
+                  <li>
+                    {$_("aboutUs.real_estate_revolution_text.interdep_1")}
+                  </li>
+                </ul>
+              </div>
+              <div class="font-bold text-center">KELLER WILLIAMS</div>
+              <ul class="list-disc list-outside pl-6">
+                <li>{$_("aboutUs.real_estate_revolution_text.interdep_2")}</li>
+                <li>{$_("aboutUs.real_estate_revolution_text.interdep_3")}</li>
+                <li>{$_("aboutUs.real_estate_revolution_text.interdep_4")}</li>
+                <li>{$_("aboutUs.real_estate_revolution_text.interdep_5")}</li>
+              </ul>
+              <div class="font-bold text-center">
+                {$_("aboutUs.real_estate_revolution_text.low_risk_high_take")}
+              </div>
+            </div>
+            <div class="w-1/3 flex flex-col gap-[22px]">
+              <div class="font-bold text-center">
+                {$_("aboutUs.real_estate_revolution_text.independent")}
+              </div>
+              <div>
+                <ul class="list-disc list-outside space-y-2 pl-6">
+                  <li>
+                    {$_("aboutUs.real_estate_revolution_text.indep_1")}
+                  </li>
+                  <li>
+                    {$_("aboutUs.real_estate_revolution_text.indep_2")}
+                  </li>
+                  <li>
+                    {$_("aboutUs.real_estate_revolution_text.indep_3")}
+                  </li>
+                  <li>
+                    {$_("aboutUs.real_estate_revolution_text.indep_4")}
+                  </li>
+                  <li>
+                    {$_("aboutUs.real_estate_revolution_text.indep_5")}
+                  </li>
+                  <li>
+                    {$_("aboutUs.real_estate_revolution_text.indep_6")}
+                  </li>
+                </ul>
+              </div>
+              <div class="font-bold text-center">
+                {$_("aboutUs.real_estate_revolution_text.high_risk_high_take")}
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white w-[60%] h-[20%] absolute origin-top-left bottom-[-67px] rotate-[4.4deg]"
+          ></div>
+          <div
+            class="bg-white w-[60%] h-[20%] absolute origin-top-right bottom-[-67px] right-0 rotate-[-4.4deg]"
+          ></div>
+          <div
+            class="bg-white w-[60%] h-[20%] absolute origin-bottom-left top-[-67px] rotate-[-4.4deg]"
+          ></div>
+          <div
+            class="bg-white w-[60%] h-[20%] absolute origin-bottom-right top-[-67px] right-0 rotate-[4.4deg]"
+          ></div>
+        </div>
+      </div>
+      <!-- {#if currentLang === "en-US"}
         <img
           style="width: 1060px; justify-self: center;"
           src={revInRealState}
           alt="revolution in real state"
         />
-      {/if}
-      {#if currentLang !== "en-US"}
+      {/if} -->
+      <!-- {#if currentLang !== "en-US"}
         <img
           style="width: 1060px; justify-self: center;"
           class="evoDesktop"
@@ -456,7 +556,7 @@
           src="https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/financePhoneEvo.svg"
           alt=""
         />
-      {/if}
+      {/if} -->
     </div>
   </section>
 </div>
@@ -598,6 +698,9 @@
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap");
 
+  .robotoCondensedFont ul {
+    font-family: "Roboto Condensed", sans-serif;
+  }
   .Kwcontainer {
     width: 90%;
     overflow: hidden;
