@@ -431,16 +431,20 @@
       </h1>
       <!--     <div class="evoBorder"></div> -->
       <div
-        class="w-[1060px] h-[600px] bg-[#dcdbdb] justify-self-center relative"
+        class="w-[1060px] h-[600px] bg-[#dcdbdb] justify-self-center relative max-[1020px]:w-[640px] max-[1020px]:h-[1260px] max-[480px]:w-full max-[480px]:h-fit"
       >
-        <div class="h-[25%] w-full absolute top-[-4%] flex justify-center z-10">
+        <div
+          class="h-[25%] w-full absolute top-[-4%] flex justify-center z-10 max-[1020px]:h-[150px] max-[480px]:h-[100px]"
+        >
           <img class="z-10" src={kwRedLogo} alt="kwLogo" />
         </div>
         <div class="w-full h-full relative overflow-hidden">
           <div
-            class="h-full pt-[154px] pb-[64px] flex justify-even gap-[36px] px-[36px] robotoCondensedFont"
+            class="h-full pt-[154px] pb-[64px] flex justify-even gap-[36px] px-[36px] robotoCondensedFont max-[1020px]:flex-col max-[1020px]:items-center max-[1020px]:pt-[126px] max-[480px]:px-[12px] max-[480px]:pt-[78px]"
           >
-            <div class="w-1/3 flex flex-col gap-[22px]">
+            <div
+              class="w-1/3 flex flex-col gap-[22px] max-[1020px]:w-3/4 max-[480px]:w-full"
+            >
               <div class="font-bold text-center">
                 {$_("aboutUs.real_estate_revolution_text.dependent")}
               </div>
@@ -473,7 +477,9 @@
                 {$_("aboutUs.real_estate_revolution_text.low_risk_low_take")}
               </div>
             </div>
-            <div class="w-1/3 flex flex-col gap-[22px]">
+            <div
+              class="w-1/3 flex flex-col gap-[22px] max-[1020px]:w-3/4 max-[1020px]:text-[#bd152e] max-[480px]:w-full"
+            >
               <div class="font-bold text-center">
                 {$_("aboutUs.real_estate_revolution_text.interdependent")}
               </div>
@@ -495,7 +501,9 @@
                 {$_("aboutUs.real_estate_revolution_text.low_risk_high_take")}
               </div>
             </div>
-            <div class="w-1/3 flex flex-col gap-[22px]">
+            <div
+              class="w-1/3 flex flex-col gap-[22px] max-[1020px]:w-3/4 max-[480px]:w-full"
+            >
               <div class="font-bold text-center">
                 {$_("aboutUs.real_estate_revolution_text.independent")}
               </div>
@@ -531,16 +539,16 @@
             </div>
           </div>
           <div
-            class="bg-white w-[60%] h-[20%] absolute origin-top-left bottom-[-67px] rotate-[4.4deg]"
+            class="bg-white w-[60%] h-[20%] absolute origin-top-left bottom-[-67px] rotate-[4.4deg] max-[1020px]:h-[8%]"
           ></div>
           <div
-            class="bg-white w-[60%] h-[20%] absolute origin-top-right bottom-[-67px] right-0 rotate-[-4.4deg]"
+            class="bg-white w-[60%] h-[20%] absolute origin-top-right bottom-[-67px] right-0 rotate-[-4.4deg] max-[1020px]:h-[8%]"
           ></div>
           <div
-            class="bg-white w-[60%] h-[20%] absolute origin-bottom-left top-[-67px] rotate-[-4.4deg]"
+            class="bg-white w-[60%] h-[20%] absolute origin-bottom-left top-[-67px] rotate-[-4.4deg] max-[1020px]:h-[8%]"
           ></div>
           <div
-            class="bg-white w-[60%] h-[20%] absolute origin-bottom-right top-[-67px] right-0 rotate-[4.4deg]"
+            class="bg-white w-[60%] h-[20%] absolute origin-bottom-right top-[-67px] right-0 rotate-[4.4deg] max-[1020px]:h-[8%]"
           ></div>
         </div>
       </div>
