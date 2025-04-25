@@ -431,7 +431,7 @@
       </h1>
       <!--     <div class="evoBorder"></div> -->
       <div
-        class="w-[1060px] h-[600px] bg-[#d9d9d9] justify-self-center relative"
+        class="w-[1060px] h-[600px] bg-[#dcdbdb] justify-self-center relative"
       >
         <div class="h-[25%] w-full absolute top-[-4%] flex justify-center z-10">
           <img class="z-10" src={kwRedLogo} alt="kwLogo" />
@@ -447,9 +447,19 @@
               <div>
                 <ul class="list-disc list-outside space-y-2 pl-6">
                   <li>
-                    {$_("aboutUs.real_estate_revolution_text.dep_1")}
+                    {$_("aboutUs.real_estate_revolution_text.dep_1")},
+                    {$_("aboutUs.real_estate_revolution_text.dep_7")}
                   </li>
-                  <li>{$_("aboutUs.real_estate_revolution_text.dep_2")}</li>
+                  <!-- {#if currentLang === "en-US"}
+                    <li>{$_("aboutUs.real_estate_revolution_text.dep_7")}</li>
+                  {/if} -->
+                </ul>
+              </div>
+              <div class="font-bold text-center">
+                {$_("aboutUs.real_estate_revolution_text.dep_2")}
+              </div>
+              <div>
+                <ul class="list-disc list-outside space-y-0 pl-6">
                   <li>{$_("aboutUs.real_estate_revolution_text.dep_3")}</li>
                   <li>{$_("aboutUs.real_estate_revolution_text.dep_4")}</li>
                   <li>{$_("aboutUs.real_estate_revolution_text.dep_5")}</li>
@@ -494,9 +504,13 @@
                   <li>
                     {$_("aboutUs.real_estate_revolution_text.indep_1")}
                   </li>
-                  <li>
-                    {$_("aboutUs.real_estate_revolution_text.indep_2")}
-                  </li>
+                </ul>
+              </div>
+              <div class="font-bold text-center">
+                {$_("aboutUs.real_estate_revolution_text.indep_2")}
+              </div>
+              <div>
+                <ul class="list-disc list-outside space-y-0 pl-6">
                   <li>
                     {$_("aboutUs.real_estate_revolution_text.indep_3")}
                   </li>
