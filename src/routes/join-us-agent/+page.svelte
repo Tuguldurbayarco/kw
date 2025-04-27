@@ -22,6 +22,7 @@
 
           min-[1550px]:[grid-template-rows:0.63fr_0.18fr]
           min-[1500px]:[grid-template-rows:0.63fr_0.16fr]
+          
           max-[1500px]:pl-[10px]
 
           min-[1450px]:[grid-template-rows:0.61fr_0.17fr]
