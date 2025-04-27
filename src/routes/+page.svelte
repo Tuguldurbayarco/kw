@@ -3,10 +3,8 @@
   import { _ } from "svelte-i18n";
   import { locale } from "svelte-i18n";
   import timelineWeb from "$lib/svg/timeline_web.svg";
-  import revInRealState from "$lib/svg/rev_in_real_state.svg";
-  import revInRealStateMn from "$lib/svg/rev_in_real_state_mn.svg";
   import growthGraph from "$lib/svg/growth-share.svg";
-  import kwRedLogo from "$lib/images/kw-red-logo.jpeg";
+  import kwWhiteLogo from "$lib/images/kw-white-logo.png";
 
   let currentLang = "";
   locale.subscribe((value) => (currentLang = value ?? ""));
@@ -436,7 +434,11 @@
         <div
           class="h-[25%] w-full absolute top-[-4%] flex justify-center z-10 max-[1020px]:h-[150px] max-[480px]:h-[100px]"
         >
-          <img class="z-10" src={kwRedLogo} alt="kwLogo" />
+          <img
+            class="z-10 bg-[#bd152e] h-full py-8 px-20 max-[480px]:py-4 max-[480px]:px-8"
+            src={kwWhiteLogo}
+            alt="kwLogo"
+          />
         </div>
         <div class="w-full h-full relative overflow-hidden">
           <div

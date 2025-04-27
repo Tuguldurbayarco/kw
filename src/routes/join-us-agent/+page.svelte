@@ -22,12 +22,11 @@
 
           min-[1550px]:[grid-template-rows:0.63fr_0.18fr]
           min-[1500px]:[grid-template-rows:0.63fr_0.16fr]
-          
+
           max-[1500px]:pl-[10px]
 
           min-[1450px]:[grid-template-rows:0.61fr_0.17fr]
           min-[1400px]:[grid-template-rows:0.57fr_0.17fr]
-          max-[1500px]:pl-[50px]
 
           min-[1350px]:[grid-template-rows:0.56fr_0.17fr]
           max-[1350px]:pl-[6px]
