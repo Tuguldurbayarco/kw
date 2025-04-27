@@ -7,18 +7,58 @@
     <div class="KwcontainerOther">
       <div
         style="background-image: url('https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/agent_de0036_(1).webp');"
-        class="agentSection"
+        class="agentSection
+        min-[1900px]:[grid-template-rows:0.78fr_0.18fr]
+        min-[1850px]:[grid-template-rows:0.75fr_0.21fr]
+        min-[1800px]:[grid-template-rows:0.75fr_0.18fr]
+        min-[1750px]:[grid-template-rows:0.72fr_0.18fr]
+        min-[1700px]:[grid-template-rows:0.70fr_0.18fr]
+        min-[1650px]:[grid-template-rows:0.67fr_0.18fr]
+
+        min-[1600px]:[grid-template-rows:0.66fr_0.18fr]
+        max-[1600px]:pl-[50px]
+
+             min-[1200px]:[grid-template-columns:0.65fr_0.35fr]
+
+          min-[1550px]:[grid-template-rows:0.63fr_0.18fr]
+          min-[1500px]:[grid-template-rows:0.63fr_0.16fr]
+          max-[1500px]:pl-[10px]
+
+          min-[1450px]:[grid-template-rows:0.61fr_0.17fr]
+          min-[1400px]:[grid-template-rows:0.57fr_0.17fr]
+          max-[1500px]:pl-[50px]
+
+          min-[1350px]:[grid-template-rows:0.56fr_0.17fr]
+          max-[1350px]:pl-[6px]
+
+          min-[1301px]:[grid-template-rows:0.54fr_0.17fr]
+          
+          min-[1000px]:[grid-template-columns:0.60fr_0.4fr]
+          min-[881px]:[grid-template-rows:0.7fr_0.4fr]
+          min-[881px]:[grid-template-columns:0.55fr_0.45fr]
+        "
       >
-        <div class="agentImageSectionText">
-          <h1
-            class="max-[1500px]:pl-6 max-[1300px]:pl-[172px] max-[1200px]:pl-9 pb-0 min-[880px]:pb-[30px] min-[1300px]:pb-0 min-[1580px]:pb-[30px] min-[1580px]:pb-[20px] min-[1720px]:pb-0"
-          >
+        <div
+          class="agentImageSectionText
+          max-[1301px]:pl-[220px]
+          max-[1271px]:pl-[200px]
+          max-[1251px]:pl-[180px]
+          max-[1231px]:pl-[160px]
+          max-[1211px]:pl-[140px]
+          max-[1191px]:pl-[120px]
+          max-[1171px]:pl-[100px]
+          max-[1151px]:pl-[80px]
+          max-[1131px]:pl-[60px]
+          max-[1011px]:pl-[50px]
+          max-[961px]:pl-[40px]
+          max-[911px]:pl-[30px]
+        "
+        >
+          <h1>
             {$_("joinUsAgent.commision")}
           </h1>
         </div>
-        <div
-          class="agentFlex pb-5 min-[1580px]:pb-[130px] min-[1620px]:pb-[120px] min-[1720px]:pb-18 min-[1580px]:text-white"
-        >
+        <div class="agentFlex min-[1301px]:text-white">
           <div class="agentGrid">
             <div class="agentGridSection">
               <h1>{$_("joinUsAgent.firstYear")}</h1>
@@ -180,8 +220,6 @@ margin: 0 auto;
     background-position: right top;
     position: relative;
     display: grid;
-    grid-template-columns: 0.6fr 0.4fr;
-    grid-template-rows: 0.7fr 0.3fr;
     margin-bottom: 60px;
     /* min-height: 820px;
 background-repeat: no-repeat;
@@ -205,7 +243,7 @@ margin-bottom: 60px; */
     flex-direction: row;
     align-items: flex-end;
     justify-content: center;
-    margin: 0px 0px 20px 200px;
+    margin: 0px 0px 0px 200px;
     /* margin-left: 60px; */
   }
 
@@ -419,10 +457,6 @@ grid-column-start: 1; */
       grid-column-gap: 110px;
     }
 
-    .agentSection {
-      grid-template-columns: 0.6fr 0.4fr;
-    }
-
     .agentWorldSurgaltText {
       padding: 60px 60px;
     }
@@ -441,11 +475,6 @@ grid-column-start: 1; */
   }
 
   @media (max-width: 1400px) {
-    .agentSection {
-      grid-template-columns: 0.6fr 0.4fr;
-      /* grid-template-rows: 0.65fr 0.35fr; */
-    }
-
     .agentWorldSurgaltText {
       grid-column: 2/10;
     }

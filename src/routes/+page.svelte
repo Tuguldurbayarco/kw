@@ -431,7 +431,7 @@
       </h1>
       <!--     <div class="evoBorder"></div> -->
       <div
-        class="w-[1060px] h-[600px] bg-[#dcdbdb] justify-self-center relative max-[1020px]:w-[640px] max-[1020px]:h-[1260px] max-[480px]:w-full max-[480px]:h-fit"
+        class="w-[1060px] h-fit bg-[#dcdbdb] justify-self-center relative max-[1020px]:w-[640px] max-[480px]:w-full"
       >
         <div
           class="h-[25%] w-full absolute top-[-4%] flex justify-center z-10 max-[1020px]:h-[150px] max-[480px]:h-[100px]"
@@ -451,12 +451,15 @@
               <div>
                 <ul class="list-disc list-outside space-y-2 pl-6">
                   <li>
-                    {$_("aboutUs.real_estate_revolution_text.dep_1")},
-                    {$_("aboutUs.real_estate_revolution_text.dep_7")}
+                    {$_("aboutUs.real_estate_revolution_text.dep_1")}
+                    {#if currentLang === "en-US"}
+                      <span>
+                        , {$_(
+                          "aboutUs.real_estate_revolution_text.dep_7"
+                        )}</span
+                      >
+                    {/if}
                   </li>
-                  <!-- {#if currentLang === "en-US"}
-                    <li>{$_("aboutUs.real_estate_revolution_text.dep_7")}</li>
-                  {/if} -->
                 </ul>
               </div>
               <div class="font-bold text-center">
