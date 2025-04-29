@@ -1,15 +1,15 @@
 import{t as Ne,b as Ke,s as v}from"../chunks/DtKuZTqk.js";import{i as Oe}from"../chunks/DsKLuw6j.js";import{B as We,C as Ce,D as Fe,F as Le,G as s,I as e,J as Re,K as t,L as i}from"../chunks/34rZEehy.js";import{s as Ye,$ as $e,r as qe}from"../chunks/B_-MF6j_.js";import{s as He,a as Je}from"../chunks/SxDKHJ5I.js";var Pe=Ne(`<section class="agentHuvi svelte-vw0wgb"><div><div class="KwcontainerOther svelte-vw0wgb"><div style="background-image: url('https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/agent_de0036_(1).webp');" class="agentSection
-        min-[1900px]:[grid-template-rows:0.78fr_0.18fr]
-        min-[1850px]:[grid-template-rows:0.75fr_0.21fr]
-        min-[1800px]:[grid-template-rows:0.75fr_0.18fr]
-        min-[1750px]:[grid-template-rows:0.72fr_0.18fr]
-        min-[1700px]:[grid-template-rows:0.70fr_0.18fr]
-        min-[1650px]:[grid-template-rows:0.67fr_0.18fr]
+          min-[1900px]:[grid-template-rows:0.78fr_0.18fr]
+          min-[1850px]:[grid-template-rows:0.75fr_0.21fr]
+          min-[1800px]:[grid-template-rows:0.75fr_0.18fr]
+          min-[1750px]:[grid-template-rows:0.72fr_0.18fr]
+          min-[1700px]:[grid-template-rows:0.70fr_0.18fr]
+          min-[1650px]:[grid-template-rows:0.67fr_0.18fr]
 
-        min-[1600px]:[grid-template-rows:0.66fr_0.18fr]
-        max-[1600px]:pl-[50px]
+          min-[1600px]:[grid-template-rows:0.66fr_0.18fr]
+          max-[1600px]:pl-[50px]
 
-             min-[1200px]:[grid-template-columns:0.65fr_0.35fr]
+          min-[1200px]:[grid-template-columns:0.65fr_0.35fr]
 
           min-[1550px]:[grid-template-rows:0.63fr_0.18fr]
           min-[1500px]:[grid-template-rows:0.63fr_0.16fr]
