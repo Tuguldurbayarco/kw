@@ -447,7 +447,10 @@
             <div
               class="w-1/3 flex flex-col gap-[22px] max-[1020px]:w-3/4 max-[480px]:w-full"
             >
-              <div class="font-bold text-center">
+              <div
+                class="font-bold text-center"
+                style="font-family: 'Roboto Condensed';"
+              >
                 {$_("aboutUs.real_estate_revolution_text.dependent")}
               </div>
               <div>
@@ -465,10 +468,10 @@
                 </ul>
               </div>
               <div
-                class="font-bold text-center"
+                class="font-bold text-center uppercase"
                 style={currentLang === "en-US"
-                  ? "padding-top: 46px;"
-                  : "padding-top: 23px;"}
+                  ? "padding-top: 46px; font-family: 'Roboto Condensed';"
+                  : "padding-top: 23px; font-family: 'Roboto Condensed';"}
               >
                 {$_("aboutUs.real_estate_revolution_text.dep_2")}
               </div>
@@ -483,14 +486,20 @@
                   {/if}
                 </ul>
               </div>
-              <div class="font-bold text-center">
+              <div
+                class="font-bold text-center"
+                style="font-family: 'Roboto Condensed';"
+              >
                 {$_("aboutUs.real_estate_revolution_text.low_risk_low_take")}
               </div>
             </div>
             <div
               class="w-1/3 flex flex-col gap-[22px] max-[1020px]:w-3/4 text-[#bd152e] max-[480px]:w-full"
             >
-              <div class="font-bold text-center">
+              <div
+                class="font-bold text-center"
+                style="font-family: 'Roboto Condensed';"
+              >
                 {$_("aboutUs.real_estate_revolution_text.interdependent")}
               </div>
               <div>
@@ -500,7 +509,12 @@
                   </li>
                 </ul>
               </div>
-              <div class="font-bold text-center">KELLER WILLIAMS</div>
+              <div
+                class="font-bold text-center"
+                style="font-family: 'Roboto Condensed';"
+              >
+                KELLER WILLIAMS
+              </div>
               <ul class="list-disc list-outside pl-6">
                 <li>{$_("aboutUs.real_estate_revolution_text.interdep_2")}</li>
                 <li>{$_("aboutUs.real_estate_revolution_text.interdep_3")}</li>
@@ -509,7 +523,9 @@
               </ul>
               <div
                 class="font-bold text-center text-[#bd152e] pb-5"
-                style={currentLang === "en-US" ? "padding-top: 22px; " : ""}
+                style={currentLang === "en-US"
+                  ? "padding-top: 22px; font-family: 'Roboto Condensed';"
+                  : "font-family: 'Roboto Condensed';"}
               >
                 {$_("aboutUs.real_estate_revolution_text.low_risk_high_take")}
               </div>
@@ -517,7 +533,10 @@
             <div
               class="w-1/3 flex flex-col gap-[22px] max-[1020px]:w-3/4 max-[480px]:w-full"
             >
-              <div class="font-bold text-center">
+              <div
+                class="font-bold text-center"
+                style="font-family: 'Roboto Condensed';"
+              >
                 {$_("aboutUs.real_estate_revolution_text.independent")}
               </div>
               <div>
@@ -528,10 +547,10 @@
                 </ul>
               </div>
               <div
-                class="font-bold text-center"
+                class="font-bold text-center uppercase"
                 style={currentLang === "en-US"
-                  ? "padding-top: 46px;"
-                  : "padding-top: 23px;"}
+                  ? "padding-top: 46px;font-family: 'Roboto Condensed';"
+                  : "padding-top: 23px;font-family: 'Roboto Condensed';"}
               >
                 {$_("aboutUs.real_estate_revolution_text.indep_2")}
               </div>
@@ -551,7 +570,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="font-bold text-center">
+              <div
+                class="font-bold text-center"
+                style="font-family: 'Roboto Condensed';"
+              >
                 {$_("aboutUs.real_estate_revolution_text.high_risk_high_take")}
               </div>
             </div>

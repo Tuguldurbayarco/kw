@@ -306,7 +306,7 @@
   }
 
   .logo-style {
-    max-width: 120px;
+    max-width: 160px;
   }
   nav {
     z-index: 999;
@@ -425,7 +425,7 @@
       display: block;
     }
     .logo-style {
-      max-width: 100px;
+      max-width: 120px;
     }
     .bg-faded {
       background: rgba(0, 0, 0, 0.5);
