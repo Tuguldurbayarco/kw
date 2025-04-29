@@ -8,17 +8,17 @@
       <div
         style="background-image: url('https://repcmsneu.blob.core.windows.net/cms/sites/kw-mongolia/pts_images/agent_de0036_(1).webp');"
         class="agentSection
-        min-[1900px]:[grid-template-rows:0.78fr_0.18fr]
-        min-[1850px]:[grid-template-rows:0.75fr_0.21fr]
-        min-[1800px]:[grid-template-rows:0.75fr_0.18fr]
-        min-[1750px]:[grid-template-rows:0.72fr_0.18fr]
-        min-[1700px]:[grid-template-rows:0.70fr_0.18fr]
-        min-[1650px]:[grid-template-rows:0.67fr_0.18fr]
+          min-[1900px]:[grid-template-rows:0.78fr_0.18fr]
+          min-[1850px]:[grid-template-rows:0.75fr_0.21fr]
+          min-[1800px]:[grid-template-rows:0.75fr_0.18fr]
+          min-[1750px]:[grid-template-rows:0.72fr_0.18fr]
+          min-[1700px]:[grid-template-rows:0.70fr_0.18fr]
+          min-[1650px]:[grid-template-rows:0.67fr_0.18fr]
 
-        min-[1600px]:[grid-template-rows:0.66fr_0.18fr]
-        max-[1600px]:pl-[50px]
+          min-[1600px]:[grid-template-rows:0.66fr_0.18fr]
+          max-[1600px]:pl-[50px]
 
-             min-[1200px]:[grid-template-columns:0.65fr_0.35fr]
+          min-[1200px]:[grid-template-columns:0.65fr_0.35fr]
 
           min-[1550px]:[grid-template-rows:0.63fr_0.18fr]
           min-[1500px]:[grid-template-rows:0.63fr_0.16fr]

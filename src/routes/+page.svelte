@@ -483,7 +483,7 @@
               </div>
             </div>
             <div
-              class="w-1/3 flex flex-col gap-[22px] max-[1020px]:w-3/4 max-[1020px]:text-[#bd152e] max-[480px]:w-full"
+              class="w-1/3 flex flex-col gap-[22px] max-[1020px]:w-3/4 text-[#bd152e] max-[480px]:w-full"
             >
               <div class="font-bold text-center">
                 {$_("aboutUs.real_estate_revolution_text.interdependent")}
@@ -502,7 +502,7 @@
                 <li>{$_("aboutUs.real_estate_revolution_text.interdep_4")}</li>
                 <li>{$_("aboutUs.real_estate_revolution_text.interdep_5")}</li>
               </ul>
-              <div class="font-bold text-center">
+              <div class="font-bold text-center text-[#bd152e]">
                 {$_("aboutUs.real_estate_revolution_text.low_risk_high_take")}
               </div>
             </div>
