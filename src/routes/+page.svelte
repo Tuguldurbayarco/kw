@@ -464,7 +464,12 @@
                   </li>
                 </ul>
               </div>
-              <div class="font-bold text-center">
+              <div
+                class="font-bold text-center"
+                style={currentLang === "en-US"
+                  ? "padding-top: 46px;"
+                  : "padding-top: 23px;"}
+              >
                 {$_("aboutUs.real_estate_revolution_text.dep_2")}
               </div>
               <div>
@@ -502,7 +507,10 @@
                 <li>{$_("aboutUs.real_estate_revolution_text.interdep_4")}</li>
                 <li>{$_("aboutUs.real_estate_revolution_text.interdep_5")}</li>
               </ul>
-              <div class="font-bold text-center text-[#bd152e]">
+              <div
+                class="font-bold text-center text-[#bd152e] pb-5"
+                style={currentLang === "en-US" ? "padding-top: 22px; " : ""}
+              >
                 {$_("aboutUs.real_estate_revolution_text.low_risk_high_take")}
               </div>
             </div>
@@ -519,7 +527,12 @@
                   </li>
                 </ul>
               </div>
-              <div class="font-bold text-center">
+              <div
+                class="font-bold text-center"
+                style={currentLang === "en-US"
+                  ? "padding-top: 46px;"
+                  : "padding-top: 23px;"}
+              >
                 {$_("aboutUs.real_estate_revolution_text.indep_2")}
               </div>
               <div>
