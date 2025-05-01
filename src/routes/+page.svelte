@@ -440,17 +440,18 @@
             alt="kwLogo"
           />
         </div>
-        <div
-          class="w-full h-full relative overflow-hidden"
-          style="font-family: 'Roboto Condensed';"
-        >
+        <div class="w-full h-full relative overflow-hidden">
           <div
             class="h-full pt-[154px] pb-[64px] flex justify-even gap-[36px] px-[36px] max-[1020px]:flex-col max-[1020px]:items-center max-[1020px]:pt-[126px] max-[480px]:px-[12px] max-[480px]:pt-[78px]"
           >
             <div
               class="w-1/3 flex flex-col gap-[22px] max-[1020px]:w-3/4 max-[480px]:w-full"
+              style="font-family: 'Roboto Condensed';"
             >
-              <div class="font-bold text-center">
+              <div
+                class="font-bold text-center"
+                style={currentLang === "mn" ? "font-family:Roboto" : ""}
+              >
                 {$_("aboutUs.real_estate_revolution_text.dependent")}
               </div>
               <div>
@@ -470,8 +471,8 @@
               <div
                 class="font-bold text-center uppercase"
                 style={currentLang === "en-US"
-                  ? "padding-top: 46px; font-family: 'Roboto Condensed';"
-                  : "padding-top: 23px; font-family: 'Roboto Condensed';"}
+                  ? "padding-top: 46px;"
+                  : "padding-top: 23px; font-family: 'Roboto';"}
               >
                 {$_("aboutUs.real_estate_revolution_text.dep_2")}
               </div>
@@ -488,17 +489,19 @@
               </div>
               <div
                 class="font-bold text-center"
-                style="font-family: 'Roboto Condensed';"
+                style={currentLang === "mn" ? "font-family:Roboto" : ""}
               >
                 {$_("aboutUs.real_estate_revolution_text.low_risk_low_take")}
               </div>
+              <!-- style="font-family: 'Roboto Condensed';" -->
             </div>
             <div
               class="w-1/3 flex flex-col gap-[22px] max-[1020px]:w-3/4 text-[#bd152e] max-[480px]:w-full"
+              style="font-family: 'Roboto Condensed';"
             >
               <div
                 class="font-bold text-center"
-                style="font-family: 'Roboto Condensed';"
+                style={currentLang === "mn" ? "font-family:Roboto" : ""}
               >
                 {$_("aboutUs.real_estate_revolution_text.interdependent")}
               </div>
@@ -511,7 +514,7 @@
               </div>
               <div
                 class="font-bold text-center"
-                style="font-family: 'Roboto Condensed';"
+                style={currentLang === "mn" ? "font-family:Roboto" : ""}
               >
                 KELLER WILLIAMS
               </div>
@@ -524,18 +527,19 @@
               <div
                 class="font-bold text-center text-[#bd152e] pb-5"
                 style={currentLang === "en-US"
-                  ? "padding-top: 22px; font-family: 'Roboto Condensed';"
-                  : "font-family: 'Roboto Condensed';"}
+                  ? "padding-top: 22px;"
+                  : "font-family: 'Roboto';"}
               >
                 {$_("aboutUs.real_estate_revolution_text.low_risk_high_take")}
               </div>
             </div>
             <div
               class="w-1/3 flex flex-col gap-[22px] max-[1020px]:w-3/4 max-[480px]:w-full"
+              style="font-family: 'Roboto Condensed';"
             >
               <div
                 class="font-bold text-center"
-                style="font-family: 'Roboto Condensed';"
+                style={currentLang === "mn" ? "font-family:Roboto" : ""}
               >
                 {$_("aboutUs.real_estate_revolution_text.independent")}
               </div>
@@ -549,8 +553,8 @@
               <div
                 class="font-bold text-center uppercase"
                 style={currentLang === "en-US"
-                  ? "padding-top: 46px;font-family: 'Roboto Condensed';"
-                  : "padding-top: 23px;font-family: 'Roboto Condensed';"}
+                  ? "padding-top: 46px;"
+                  : "padding-top: 23px;font-family: 'Roboto';"}
               >
                 {$_("aboutUs.real_estate_revolution_text.indep_2")}
               </div>
@@ -572,7 +576,7 @@
               </div>
               <div
                 class="font-bold text-center"
-                style="font-family: 'Roboto Condensed';"
+                style={currentLang === "mn" ? "font-family:Roboto" : ""}
               >
                 {$_("aboutUs.real_estate_revolution_text.high_risk_high_take")}
               </div>
@@ -759,7 +763,7 @@
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap");
-
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
   .robotoCondensedFont ul {
     font-family: "Roboto Condensed", sans-serif;
   }
