@@ -440,17 +440,17 @@
             alt="kwLogo"
           />
         </div>
-        <div class="w-full h-full relative overflow-hidden">
+        <div
+          class="w-full h-full relative overflow-hidden"
+          style="font-family: 'Roboto Condensed';"
+        >
           <div
-            class="h-full pt-[154px] pb-[64px] flex justify-even gap-[36px] px-[36px] robotoCondensedFont max-[1020px]:flex-col max-[1020px]:items-center max-[1020px]:pt-[126px] max-[480px]:px-[12px] max-[480px]:pt-[78px]"
+            class="h-full pt-[154px] pb-[64px] flex justify-even gap-[36px] px-[36px] max-[1020px]:flex-col max-[1020px]:items-center max-[1020px]:pt-[126px] max-[480px]:px-[12px] max-[480px]:pt-[78px]"
           >
             <div
               class="w-1/3 flex flex-col gap-[22px] max-[1020px]:w-3/4 max-[480px]:w-full"
             >
-              <div
-                class="font-bold text-center"
-                style="font-family: 'Roboto Condensed';"
-              >
+              <div class="font-bold text-center">
                 {$_("aboutUs.real_estate_revolution_text.dependent")}
               </div>
               <div>
@@ -668,7 +668,7 @@
 <div>
   <section class="life">
     <div class="Kwcontainer">
-      <h1 style="font-weight: bold;">
+      <h1 style="font-weight: bold;padding-top:28px;">
         {$_("aboutUs.passive_income_opportunity")}
       </h1>
       <!--  <div class="lifeBorder"></div> -->
@@ -1249,7 +1249,7 @@
     grid-column-gap: 20px;
   }
   .lifeBayGap {
-    padding-top: 80px;
+    padding-top: 66px;
   }
 
   .lifeBaylagP-top h3 {
