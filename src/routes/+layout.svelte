@@ -230,9 +230,12 @@
             /></svg
           >
         </div>
-        <div class="leading-none">
-          Address: Peak Residences, Zaisan 11th horoo,<br /> Khan-Uul district, Ulaanbaatar,
-          Mongolia
+        <div class="leading-none flex gap-1.5">
+          <div>Address:</div>
+          <div>
+            Peak Residences, Zaisan 11th horoo,<br /> Khan-Uul district, Ulaanbaatar,
+            Mongolia
+          </div>
         </div>
       </div>
     </div>
@@ -265,7 +268,7 @@
         /></svg
       >
       <div class="leading-none mb-2.5">
-        Phone: <span class="pl-[13px]">(+976) 7777 0707</span>
+        Phone: <span class="pl-[14px]">(+976) 7777 0707</span>
       </div>
     </div>
     <div class="flex align-center gap-1">
@@ -280,7 +283,7 @@
         /></svg
       >
       <div class="leading-none mb-2.5">
-        Email: <span class="pl-[23px]">contact@kwmongolia.com</span>
+        Email: <span class="pl-[22px]">contact@kwmongolia.com</span>
       </div>
     </div>
     <div class="flex align-center gap-1">
@@ -296,10 +299,12 @@
           /></svg
         >
       </div>
-      <div class="leading-none">
-        Address: Peak Residences, Zaisan 11th horoo, <br
-          class="max-[400px]:hidden"
-        /> Khan-Uul district, Ulaanbaatar, Mongolia
+      <div class="leading-none flex gap-1.5">
+        <div>Address:</div>
+        <div>
+          Peak Residences, Zaisan 11th horoo,<br class="max-[400px]:hidden" /> Khan-Uul
+          district, Ulaanbaatar, Mongolia
+        </div>
       </div>
     </div>
   </div>
