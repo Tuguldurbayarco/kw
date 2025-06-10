@@ -60,23 +60,20 @@
     >
       <ul class="burger-menu">
         <li style="border-top: 2px solid #2628361a;">
-          <a class="whitespace-nowrap" href="/kw/" on:click={hideMenu}>
+          <a class="whitespace-nowrap" href="/" on:click={hideMenu}>
             {$_("layout.aboutUs")}
           </a>
         </li>
         <li>
-          <a href="/kw/join-us-agent" on:click={hideMenu}>
+          <a href="/join-us-agent" on:click={hideMenu}>
             {$_("layout.joinUsAgent")}</a
           >
         </li>
         <li>
-          <a href="/kw/join-us-staff" on:click={hideMenu}
+          <a href="/join-us-staff" on:click={hideMenu}
             >{$_("layout.joinUsAsATeamMember")}</a
           >
         </li>
-        <!-- <li>
-        <a href="/kw/#">Блог</a>
-      </li> -->
         <li>
           <a
             href="https://www.kw.com/mn/search"
@@ -94,24 +91,22 @@
     ></div>
 
     <div class="logo-container">
-      <a href="/kw/">
+      <a href="/">
         <img class="logo-style" src={kwLogo} alt="" />
       </a>
     </div>
     <div class="flex items-center w-full justify-end max-[1281px]:mr-7">
       <ul class="header-menu-wide">
         <li class="whitespace-nowrap">
-          <a href="/kw/"> {$_("layout.aboutUs")}</a>
+          <a href="/"> {$_("layout.aboutUs")}</a>
         </li>
         <li class="whitespace-nowrap">
-          <a href="/kw/join-us-agent"> {$_("layout.joinUsAgent")}</a>
+          <a href="/join-us-agent"> {$_("layout.joinUsAgent")}</a>
         </li>
         <li class="whitespace-nowrap">
-          <a href="/kw/join-us-staff">{$_("layout.joinUsAsATeamMember")}</a>
+          <a href="/join-us-staff">{$_("layout.joinUsAsATeamMember")}</a>
         </li>
-        <!-- <li>
-        <a href="/kw/#">Блог</a>
-      </li> -->
+
         <li class="whitespace-nowrap">
           <a href="https://www.kw.com/mn/search" target="_blank"
             >{$_("layout.findProperty")}</a
